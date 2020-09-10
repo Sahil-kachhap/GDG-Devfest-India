@@ -14,7 +14,7 @@ class CustomImageCard extends StatelessWidget {
       decoration: BoxDecoration(
         image:
         DecorationImage(image: imageProvider),
-        borderRadius: BorderRadius.all(Radius.circular(20.0)),
+        borderRadius: BorderRadius.all(Radius.circular(30.0)),
         // color: Colors.white
       ),
     );

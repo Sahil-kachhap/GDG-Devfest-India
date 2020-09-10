@@ -8,6 +8,7 @@ class Themes {
     textTheme: TextTheme(
       headline: TextStyle(fontFamily: 'OpenSans'),
       body2: TextStyle(fontFamily: 'Opensans'),
+
     ),
     appBarTheme: AppBarTheme(
         color: Colors.white, iconTheme: IconThemeData(color: Colors.black),

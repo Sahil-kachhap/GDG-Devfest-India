@@ -28,6 +28,7 @@ dependencies:
   flutter_bloc: ^0.20.1
   equatable: ^0.4.0
   animated_splash: ^1.0.0
+  animated_text_kit: ^2.2.0
 
 dev_dependencies:
   flutter_test:
@@ -61,10 +62,10 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
+  fonts:
+     - family: OpenSans
+       fonts:
+         - asset: fonts/OpenSans-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
