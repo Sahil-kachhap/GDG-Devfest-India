@@ -15,6 +15,7 @@ class Devfest{
 
   static const String WelcomeDesc = "Welcome To GDG DevFest India";
   static const String Description = "Devfest are community-led ,developer events hosted by GDG chapters around the globe focused on community building and learning about Google's Technologies. Each Devfest is inspired by and uniquely tailored to the needs of the developer community and region that hosts it";
+  static const String HarshAkshit="Harsh Akshit is Co-Organizer of GDG Ranchi.He is Experienced Member with a demonstrated history of working in the computer software industry. Skilled in Computer Networking,Python, Entrepreneurship, HTML and Machine Learning.";
   static const String loading_Text="Loading...";
   static const String try_again_text="Try Again";
   static const String some_error_Text="Some Error";

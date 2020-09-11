@@ -1,3 +1,4 @@
+import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:event_app/Constant_info/Constants.dart';
 import 'package:event_app/Helpers/CustomCard.dart';
 import 'package:event_app/Helpers/Custom_Scaffold.dart';
@@ -28,9 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
               padding: const EdgeInsets.only(top: 20.0),
               child: Text(
                 Devfest.WelcomeDesc,
-                style: Theme.of(context)
-                    .textTheme
-                    .headline,
+                style: Theme.of(context).textTheme.headline,
               ),
             ),
             Padding(
@@ -42,8 +41,10 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
             RaisedButton(
-
-                child: Text('Register',style: TextStyle(color: Colors.white),),
+                child: Text(
+                  'Register',
+                  style: TextStyle(color: Colors.white),
+                ),
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(7)),
                 color: Color(0xff3e5df5),
@@ -55,14 +56,21 @@ class _HomeScreenState extends State<HomeScreen> {
                 children: <Widget>[
                   IconButton(
                     icon: Icon(FontAwesomeIcons.twitter),
-                    onPressed: (){},
+                    onPressed: () {},
                   ),
                   SizedBox(
-                    width: 30,
+                    width: 10,
+                  ),
+                  IconButton(
+                    icon: Icon(FontAwesomeIcons.instagram),
+                    onPressed: () {},
+                  ),
+                  SizedBox(
+                    width: 10,
                   ),
                   IconButton(
                     icon: Icon(FontAwesomeIcons.youtube),
-                    onPressed: (){},
+                    onPressed: () {},
                   ),
                 ],
               ),
@@ -70,8 +78,21 @@ class _HomeScreenState extends State<HomeScreen> {
             Padding(
               padding: const EdgeInsets.only(top: 9.0),
               child: InkWell(
-                child: Text('#DevFestIndia',style: Theme.of(context).textTheme.title,),
-              ),
+                onTap: (){},
+                  child: TypewriterAnimatedTextKit(
+                    onTap: (){},
+                    totalRepeatCount: 1,
+                    speed: Duration(milliseconds: 250),
+                text: [
+                  "#DevFestIndia",
+                ],
+                    textAlign: TextAlign.center,
+                    textStyle: TextStyle(
+                      fontFamily: 'OpenSans',
+                      fontSize: 19.0,
+                      fontWeight: FontWeight.bold
+                    ),
+              )),
             ),
           ],
         ),
@@ -80,4 +101,3 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
-
