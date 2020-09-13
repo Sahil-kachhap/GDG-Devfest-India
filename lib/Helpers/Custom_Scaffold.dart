@@ -10,7 +10,6 @@ class CustomScaffold extends StatefulWidget {
   final Icon CustomIcon;
   final Widget CustomBody;
   final Widget BottomWidget;
-
   CustomScaffold(
       {@required this.appTitle,
       @required this.CustomIcon,
@@ -22,7 +21,7 @@ class CustomScaffold extends StatefulWidget {
 
 class _CustomScaffoldState extends State<CustomScaffold> {
   bool _isThemeSwitch = false;
-
+  int indexBottom=2;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -63,7 +62,7 @@ class _CustomScaffoldState extends State<CustomScaffold> {
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
         //selectedItemColor: Colors.white,
-        currentIndex: 2,
+        currentIndex: indexBottom,
         items: [
           BottomNavigationBarItem(
               title: Text('Speakers'),
@@ -79,7 +78,11 @@ class _CustomScaffoldState extends State<CustomScaffold> {
               title: Text('Sponsors'),
               icon: Icon(FontAwesomeIcons.handshake)),
         ],
-        onTap: (index) {},
+        onTap: (index) {
+          setState(() {
+            indexBottom=index;
+          });
+        },
       ),
     );
   }
