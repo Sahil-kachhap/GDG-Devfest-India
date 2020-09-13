@@ -1,0 +1,206 @@
+[
+  [
+    {
+    "name": "GDG Ahemedabad",
+    "image": "Assets/Images/gdg_ahm.jpeg"
+    },
+    {
+    "name": "GDG Bangalore",
+    "image": "Assets/Images/gdg_bnglr.jpeg"
+    },
+    {
+    "name": "GDG Kolkata",
+    "image": "Assets/Images/gdg_img.jpeg"
+    },
+    {
+    "name": "GDG New Delhi",
+    "image": "Assets/Images/gdg_delhi.JPG"
+    },
+    {
+    "name": "GDG Ranchi",
+    "image": "Assets/Images/ranchi.jpeg"
+    },
+    {
+    "name": "GDG Bhubaneswar",
+    "image": "Assets/Images/gdg_bbsr.jpg"
+    },
+    {
+    "name": "GDG Pune",
+    "image": "Assets/Images/gdg_pune.jpeg"
+    },
+    {
+    "name": "GDG Patna",
+    "image": "Assets/Images/gdg_patna.png"
+    },
+    {
+    "name": "GDG Baroda",
+    "image": "Assets/Images/gdg_baroda.jpeg"
+    },
+    {
+    "name": "GDG Bhilai",
+    "image": "Assets/Images/gdg_bhilai.png"
+    },
+    {
+    "name": "GDG Bhopal",
+    "image": "Assets/Images/gdg_bhopal.jpeg"
+    },
+    {
+    "name": "GDG Gwalior",
+    "image": "Assets/Images/gdg_gwalior.jpg"
+    },
+    {
+    "name": "GDG Chandigarh",
+    "image": "Assets/Images/gdg_chandigarh.jpeg"
+    },
+    {
+    "name": "GDG Chennai",
+    "image": "Assets/Images/gdg_chennai.jpeg"
+    },
+    {
+    "name": "GDG Cochin",
+    "image": "Assets/Images/gdg_cochin.jpeg"
+    },
+    {
+    "name": "GDG Coimbatore",
+    "image": "Assets/Images/gdg_coimbatore.jpeg"
+    },
+    {
+    "name": "GDG Gandhinagar",
+    "image": "Assets/Images/gdg_gandhinagar.jpeg"
+    },
+    {
+    "name": "GDG Goa",
+    "image": "Assets/Images/gdg_goa.jpg"
+    },
+    {
+    "name": "GDG Hubli",
+    "image": "Assets/Images/gdg_hubli.jpeg"
+    },
+    {
+    "name": "GDG Hyderabad",
+    "image": "Assets/Images/gdg_hbd.jpg"
+    },
+    {
+    "name": "GDG Indore",
+    "image": "Assets/Images/gdg_indore.jpeg"
+    },
+    {
+    "name": "GDG Jaipur",
+    "image": "Assets/Images/gdg_jaipur.jpg"
+    },
+    {
+    "name": "GDG Jalandhar",
+    "image": "Assets/Images/gdg_jalandhar.jpeg"
+    },
+    {
+    "name": "GDG Jodhpur",
+    "image": "Assets/Images/gdg_jodhpur.jpeg"
+    },
+    {
+    "name": "GDG KOZHIKODE",
+    "image": "Assets/Images/gdg_kozhikode.jpeg"
+    },
+    {
+    "name": "GDG MAD",
+    "image": "Assets/Images/gdg_mad.jpeg"
+    },
+    {
+    "name": "GDG BLRDROID",
+    "image": "Assets/Images/gdg_blrdroid.jpeg"
+    },
+    {
+    "name": "GDG Madurai",
+    "image": "Assets/Images/gdg_madurai.jpeg"
+    },
+    {
+    "name": "GDG Mysore",
+    "image": "Assets/Images/gdg_jaipur.jpg"
+    },
+    {
+    "name": "GDG Nagpur",
+    "image": "Assets/Images/gdg_nagpur.jpeg"
+    },
+    {
+    "name": "GDG Nashik",
+    "image": "Assets/Images/gdg_nashik.jpeg"
+    },
+    {
+    "name": "GDG Rajkot",
+    "image": "Assets/Images/gdg_rajkot.jpeg"
+    },
+    {
+    "name": "GDG Salem",
+    "image": "Assets/Images/gdg_salem.jpeg"
+    },
+    {
+    "name": "GDG Siliguri",
+    "image": "Assets/Images/gdg_siliguri.jpg"
+    },
+    {
+    "name": "GDG Srinagar",
+    "image": "Assets/Images/gdg_srinagar.jpeg"
+    },
+    {
+    "name": "GDG Surat",
+    "image": "Assets/Images/gdg_surat.jpeg"
+    },
+    {
+    "name": "GDG Trivantapuram",
+    "image": "Assets/Images/gdg_trivanthpuram.jpeg"
+    },
+    {
+    "name": "GDG Udaipur",
+    "image": "Assets/Images/gdg_udaipur.jpeg"
+    },
+    {
+    "name": "GDG Vizag",
+    "image": "Assets/Images/gdg_vizag.jpeg"
+    }
+  ],
+  [
+    {
+    "name": "GDG Cloud Ahemedabad",
+    "image": "Assets/Images/gdgc_ahm.jpeg"
+    },
+    {
+    "name": "GDG Cloud Bengaluru",
+    "image": "Assets/Images/gdgc_bengaluru.jpeg"
+    },
+    {
+    "name": "GDG Cloud Bhubaneswar",
+    "image": "Assets/Images/gdgc_bhubhneswar.jpeg"
+    },
+    {
+    "name": "GDG Cloud Chennai",
+    "image": "Assets/Images/gdgc_chennai.jpeg"
+    },
+    {
+    "name": "GDG Cloud Indore",
+    "image": "Assets/Images/gdgc_indore.jpeg"
+    },
+    {
+    "name": "GDG Cloud Hyderabad",
+    "image": "Assets/Images/gdgc_hbd.jpeg"
+    },
+    {
+    "name": "GDG Cloud Jaipur",
+    "image": "Assets/Images/gdgc_jaipur.jpeg"
+    },
+    {
+    "name": "GDG Cloud Kolkata",
+    "image": "Assets/Images/gdgc_kolkata.jpeg"
+    },
+    {
+    "name": "GDG Cloud Mumbai",
+    "image": "Assets/Images/gdgc_mumbai.jpeg"
+    },
+    {
+    "name": "GDG Cloud New Delhi",
+    "image": "Assets/Images/gdgc_newDelhi.jpeg"
+    },
+    {
+    "name": "GDG Cloud Pune",
+    "image": "Assets/Images/gdgc_pune.jpeg"
+    }
+  ]
+]

@@ -31,7 +31,7 @@ class CustomSpeakerCard extends StatelessWidget {
                   return new CustomDialog(
                     Speaker: 'Harsh Akshit',
                     Desc: Devfest.HarshAkshit,
-                    imageProvider: AssetImage('images/harsh_akshit.jpeg'),
+                    imageProvider: AssetImage('Assets/Images/harsh_akshit.jpeg'),
                   );
                 });
           },

@@ -22,7 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
             Padding(
               padding: const EdgeInsets.all(18.0),
               child: new CustomImageCard(
-                imageProvider: AssetImage('images/dev_fest.jpg'),
+                imageProvider: AssetImage('Assets/Images/dev_fest.jpg'),
               ),
             ),
             Padding(

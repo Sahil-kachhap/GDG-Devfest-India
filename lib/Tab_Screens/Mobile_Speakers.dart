@@ -15,8 +15,8 @@ class _MobileSpeakersState extends State<MobileSpeakers> {
         itemBuilder: (context, index) {
           return new CustomSpeakerCard(
             SpeakerName: 'Harsh Akshit',
-            SpeakerTopic: 'Topic: Intro To Payment Gateway',
-            image: AssetImage('images/harsh_akshit.jpeg'),
+            SpeakerTopic: 'Co-Organiser GDG Ranchi',
+            image: AssetImage('Assets/Images/harsh_akshit.jpeg'),
           );
         });
   }

@@ -23,7 +23,7 @@ class DevApp extends StatelessWidget {
             theme: state.theme,
             home: AnimatedSplash(
               imagePath: Devfest.Splash_Screen_Logo,
-              home: SpeakerScreen(),
+              home: ChapterScreen(),
               duration: 2500,
               type: AnimatedSplashType.StaticDuration,
             ),

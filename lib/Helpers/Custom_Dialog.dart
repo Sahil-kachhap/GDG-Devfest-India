@@ -34,10 +34,8 @@ class CustomDialog extends StatelessWidget {
                     ),
                     Text(
                       Speaker,
-                      style: Theme.of(context)
-                          .textTheme
-                          .title
-                          .copyWith(fontFamily: 'OpenSans',fontWeight: FontWeight.bold),
+                      style: Theme.of(context).textTheme.title.copyWith(
+                          fontFamily: 'OpenSans', fontWeight: FontWeight.bold),
                     ),
                     SizedBox(
                       height: 20,
@@ -49,7 +47,7 @@ class CustomDialog extends StatelessWidget {
                         style: Theme.of(context)
                             .textTheme
                             .body2
-                            .copyWith(fontSize: 18),
+                            .copyWith(fontSize: 18, fontFamily: 'OpenSans'),
                       ),
                     ),
                     Padding(
@@ -69,22 +67,16 @@ class CustomDialog extends StatelessWidget {
                         ],
                       ),
                     ),
-                    Align(
-                      alignment: Alignment.bottomRight,
-                      child: FloatingActionButton(
-                          child: Icon(FontAwesomeIcons.video),
-                          onPressed: (){}),
-                    )
                   ],
                 ),
               ),
             ),
             Positioned(
-                top: -50,
-                child: CircleAvatar(
-                  radius: 50.0,
-                  backgroundImage: imageProvider,
-                ),
+              top: -50,
+              child: CircleAvatar(
+                radius: 50.0,
+                backgroundImage: imageProvider,
+              ),
             ),
           ],
         ),
