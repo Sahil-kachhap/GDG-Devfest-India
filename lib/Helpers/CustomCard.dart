@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 
 class CustomImageCard extends StatelessWidget {
   final ImageProvider imageProvider;
-  CustomImageCard({
-    @required this.imageProvider
-  }) ;
+ const CustomImageCard({Key key ,@required this.imageProvider}):super(key:key) ;
 
   @override
   Widget build(BuildContext context) {
@@ -14,8 +12,8 @@ class CustomImageCard extends StatelessWidget {
       decoration: BoxDecoration(
         image:
         DecorationImage(image: imageProvider),
-        borderRadius: BorderRadius.all(Radius.circular(30.0)),
-        // color: Colors.white
+        borderRadius: BorderRadius.all(Radius.circular(17.0)),
+          color: Colors.white
       ),
     );
   }

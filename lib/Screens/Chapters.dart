@@ -30,43 +30,60 @@ class _ChapterScreenState extends State<ChapterScreen>
   Widget build(BuildContext context) {
     return CustomScaffold(
         appTitle: 'GDG Chapters India',
-        CustomIcon: Icon(Icons.share),
-        BottomWidget: TabBar(
+        popButton: IconButton(
+            icon: Icon(Icons.arrow_back),
+            onPressed: () {
+              setState(() {
+                Navigator.of(context).pushNamedAndRemoveUntil(
+                    '/home', ModalRoute.withName('/home'));
+              });
+            }),
+        customIcon: Icon(Icons.share),
+        tabBar: TabBar(
+          isScrollable: true,
           controller: _controller,
           tabs: <Widget>[
             Tab(
               child: Text(
                 'GDG Chapters',
-                style: Theme.of(context)
-                    .textTheme
-                    .subhead
-                    .copyWith(fontFamily: 'OpenSans', color: Colors.black,fontSize: 17),
+                style: Theme.of(context).brightness == Brightness.light
+                    ? Theme.of(context)
+                        .textTheme
+                        .subhead
+                        .copyWith(fontFamily: 'OpenSans', color: Colors.black)
+                    : null,
               ),
             ),
             Tab(
               child: Text(
                 'GDG Cloud Chapters',
-                style: Theme.of(context)
-                    .textTheme
-                    .subhead
-                    .copyWith(fontFamily: 'OpenSans', color: Colors.black,fontSize: 17),
+                style: Theme.of(context).brightness == Brightness.light
+                    ? Theme.of(context)
+                        .textTheme
+                        .subhead
+                        .copyWith(fontFamily: 'OpenSans', color: Colors.black)
+                    : null,
               ),
             ),
           ],
         ),
-        CustomBody: Container(
+        customBody: Container(
           child: FutureBuilder(
               future: DefaultAssetBundle.of(context)
                   .loadString('Assets/JSON/Chapters.json'),
               builder: (context, snapshot) {
                 var mydata = json.decode(snapshot.data.toString());
-                return TabBarView(
-                  controller: _controller,
-                  children: <Widget>[
-                    GDGChapterCards(mydata: mydata),
-                    GDGCloudChapterCards(mydata: mydata),
-                  ],
-                );
+                if (snapshot.hasData) {
+                  return TabBarView(
+                    controller: _controller,
+                    children: <Widget>[
+                      GDGChapterCards(mydata: mydata),
+                      GDGCloudChapterCards(mydata: mydata),
+                    ],
+                  );
+                }else{
+                  return null;
+                }
               }),
         ));
   }

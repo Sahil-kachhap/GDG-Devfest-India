@@ -4,10 +4,12 @@ import 'package:flutter/material.dart';
 class Themes {
   static final ThemeData LightTheme = ThemeData(
     //scaffoldBackgroundColor: Devfest.app_color,
+    primaryColor: Colors.white,
+    disabledColor: Colors.grey,
+    cardColor: Colors.white,
     brightness: Brightness.light,
-    tabBarTheme: TabBarTheme(
-      labelStyle: TextStyle(color: Colors.black)
-    ),
+    canvasColor: Colors.grey[50],
+    buttonTheme: ButtonThemeData(colorScheme: ColorScheme.light()),
     textTheme: TextTheme(
       headline: TextStyle(fontFamily: 'OpenSans'),
       body2: TextStyle(fontFamily: 'Opensans'),
@@ -21,8 +23,12 @@ class Themes {
   );
 
   static final ThemeData DarkTheme = ThemeData(
+   // primaryColor: Colors.black,
+   // disabledColor: Colors.grey,
+   // cardColor: Colors.black,
+    canvasColor: Colors.black,
     brightness: Brightness.dark,
-      tabBarTheme: TabBarTheme(labelStyle: TextStyle(color: Colors.white)),
+      buttonTheme: ButtonThemeData(colorScheme: ColorScheme.dark()),
       textTheme: TextTheme(
         headline: TextStyle(fontFamily: 'OpenSans'),
         body2: TextStyle(fontFamily: 'Opensans'),

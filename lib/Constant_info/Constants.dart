@@ -12,6 +12,8 @@ class Devfest{
 
   static const String Splash_Screen_Logo='Assets/Images/gdgLogo.png';
   static const String DevFest_banner='Assets/Images/dev_fest.jpg';
+  static const String Harsh_Akshit_image='Assets/Images/harsh_akshit.jpeg';
+
 
   static const String WelcomeDesc = "Welcome To GDG DevFest India";
   static const String Description = "Devfest are community-led ,developer events hosted by GDG chapters around the globe focused on community building and learning about Google's Technologies. Each Devfest is inspired by and uniquely tailored to the needs of the developer community and region that hosts it";
@@ -30,6 +32,6 @@ class Devfest{
   static const String updateNowText="Please update your App for seamless experiance";
   static const String checkNotText="It seems like your Internet Connection is not active. ";
 
-  //static SharedPreferences prefs;
+ // static SharedPreferences prefs;
   //static const String DarkModePref="darkModePref";
 }

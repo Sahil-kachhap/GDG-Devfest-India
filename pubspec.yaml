@@ -29,6 +29,7 @@ dependencies:
   equatable: ^0.4.0
   animated_splash: ^1.0.0
   animated_text_kit: ^2.2.0
+  http: ^0.12.0+1
 
 dev_dependencies:
   flutter_test:
@@ -50,6 +51,11 @@ flutter:
   assets:
     - Assets/Images/
     - Assets/JSON/Chapters.json
+    - Assets/JSON/Agenda.json
+    - Assets/JSON/Speakers.json
+    - Assets/JSON/FAQ.json
+
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

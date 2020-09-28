@@ -1,28 +1,33 @@
+import 'package:event_app/Helpers/Custom_Speaker_Card.dart';
 import 'package:flutter/material.dart';
-import 'dart:ui';
 
 class AgendaContent extends StatelessWidget {
-
   final ImageProvider image;
   final String description;
   final String title;
+  final String sessionDesc;
+  final String sessionTime;
 
-  const AgendaContent({this.image,this.description,this.title});
+  const AgendaContent({this.image, this.title,this.description,this.sessionDesc,this.sessionTime});
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-        child: Card(
-          margin: EdgeInsets.all(10.0),
-            child: ListTile(
-              leading: CircleAvatar(
-                radius: 40.0,
-                backgroundImage: image,
-              ),
-              title: Text(title),
-              subtitle: Text(description),
-            ),
-        ),
+    return CustomSpeakerCard(
+        SpeakerName: title,
+        SpeakerTopic: description,
+        SpeakerDesc: sessionDesc,
+        session_time: sessionTime,
     );
+     /* Card(
+      margin: EdgeInsets.all(10.0),
+      child: ListTile(
+        leading: CircleAvatar(
+          radius: 30.0,
+          backgroundImage: image,
+        ),
+        title: Text(title),
+        //subtitle: Text(description),
+      ),
+    );*/
   }
 }

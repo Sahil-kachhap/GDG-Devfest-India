@@ -1,0 +1,34 @@
+[
+  {
+    "question": "What is DevFest ?",
+    "answer": "DevFests are Community led developer events hosted by Google Developers Group around the globe."
+  },
+  {
+    "question": "What are GDGs ?",
+    "answer": "GDGs are focused on community building and learning about Google's technologies"
+  },
+  {
+    "question": "Who can register for DevFest ?",
+    "answer": "Beginners, experts, literally everyone. Anyone with the passion of Learning, who's fond of technology, passionate programmers, everybody can register and attend."
+  },
+  {
+    "question": "Is it mandatory to register to participate in the event ?",
+    "answer": "Yes. Each individual may register for only one ticket. You may register on behalf of anyone else."
+  },
+  {
+    "question": "I'm a beginner in programming. Can I still register ?",
+    "answer": "Yes. Anybody with the zeal in technology can register.We have special tracks especially for beginners."
+  },
+  {
+    "question": "What will attendees get by participating in the event ?",
+    "answer": "We have a plethora of AMAZING perks awaiting for you!"
+  },
+  {
+    "question": "How can I become a member of GDG ?",
+    "answer": "Head to Google developer group website(https://gdg.community.dev/) and find the nearest GDG in your location."
+  },
+  {
+    "question": "How can I communicate my queries ?",
+    "answer": "Reach out to us at: [devfestindia@gmail.com]"
+  }
+]
