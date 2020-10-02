@@ -2,205 +2,355 @@
   [
     {
     "name": "GDG Ahemedabad",
-    "image": "Assets/Images/gdg_ahm.jpeg"
+    "image": "Assets/Images/gdg_ahm.jpeg",
+    "fb": "https://www.facebook.com/GDGAhmedabad/",
+    "linkedin": "https://www.linkedin.com/company/gdg-ahmedabad/",
+    "twitter": "https://twitter.com/GDGAhmedabad"
     },
     {
     "name": "GDG Bangalore",
-    "image": "Assets/Images/gdg_bnglr.jpeg"
+    "image": "Assets/Images/gdg_bnglr.jpeg",
+     "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Kolkata",
-    "image": "Assets/Images/gdg_img.jpeg"
+    "image": "Assets/Images/gdg_img.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG New Delhi",
-    "image": "Assets/Images/gdg_delhi.JPG"
+    "image": "Assets/Images/gdg_delhi.JPG",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Ranchi",
-    "image": "Assets/Images/ranchi.jpeg"
+    "image": "Assets/Images/ranchi.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Bhubaneswar",
-    "image": "Assets/Images/gdg_bbsr.jpg"
+    "image": "Assets/Images/gdg_bbsr.jpg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Pune",
-    "image": "Assets/Images/gdg_pune.jpeg"
+    "image": "Assets/Images/gdg_pune.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Patna",
-    "image": "Assets/Images/gdg_patna.png"
+    "image": "Assets/Images/gdg_patna.png",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Baroda",
-    "image": "Assets/Images/gdg_baroda.jpeg"
+    "image": "Assets/Images/gdg_baroda.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Bhilai",
-    "image": "Assets/Images/gdg_bhilai.png"
+    "image": "Assets/Images/gdg_bhilai.png",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Bhopal",
-    "image": "Assets/Images/gdg_bhopal.jpeg"
+    "image": "Assets/Images/gdg_bhopal.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Gwalior",
-    "image": "Assets/Images/gdg_gwalior.jpg"
+    "image": "Assets/Images/gdg_gwalior.jpg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Chandigarh",
-    "image": "Assets/Images/gdg_chandigarh.jpeg"
+    "image": "Assets/Images/gdg_chandigarh.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Chennai",
-    "image": "Assets/Images/gdg_chennai.jpeg"
+    "image": "Assets/Images/gdg_chennai.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Cochin",
-    "image": "Assets/Images/gdg_cochin.jpeg"
+    "image": "Assets/Images/gdg_cochin.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Coimbatore",
-    "image": "Assets/Images/gdg_coimbatore.jpeg"
+    "image": "Assets/Images/gdg_coimbatore.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Gandhinagar",
-    "image": "Assets/Images/gdg_gandhinagar.jpeg"
+    "image": "Assets/Images/gdg_gandhinagar.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Goa",
-    "image": "Assets/Images/gdg_goa.jpg"
+    "image": "Assets/Images/gdg_goa.jpg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Hubli",
-    "image": "Assets/Images/gdg_hubli.jpeg"
+    "image": "Assets/Images/gdg_hubli.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Hyderabad",
-    "image": "Assets/Images/gdg_hbd.jpg"
+    "image": "Assets/Images/gdg_hbd.jpg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Indore",
-    "image": "Assets/Images/gdg_indore.jpeg"
+    "image": "Assets/Images/gdg_indore.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Jaipur",
-    "image": "Assets/Images/gdg_jaipur.jpg"
+    "image": "Assets/Images/gdg_jaipur.jpg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Jalandhar",
-    "image": "Assets/Images/gdg_jalandhar.jpeg"
+    "image": "Assets/Images/gdg_jalandhar.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Jodhpur",
-    "image": "Assets/Images/gdg_jodhpur.jpeg"
+    "image": "Assets/Images/gdg_jodhpur.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG KOZHIKODE",
-    "image": "Assets/Images/gdg_kozhikode.jpeg"
+    "image": "Assets/Images/gdg_kozhikode.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG MAD",
-    "image": "Assets/Images/gdg_mad.jpeg"
+    "image": "Assets/Images/gdg_mad.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG BLRDROID",
-    "image": "Assets/Images/gdg_blrdroid.jpeg"
+    "image": "Assets/Images/gdg_blrdroid.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Madurai",
-    "image": "Assets/Images/gdg_madurai.jpeg"
+    "image": "Assets/Images/gdg_madurai.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Mysore",
-    "image": "Assets/Images/gdg_jaipur.jpg"
+    "image": "Assets/Images/gdg_jaipur.jpg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Nagpur",
-    "image": "Assets/Images/gdg_nagpur.jpeg"
+    "image": "Assets/Images/gdg_nagpur.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Nashik",
-    "image": "Assets/Images/gdg_nashik.jpeg"
+    "image": "Assets/Images/gdg_nashik.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Rajkot",
-    "image": "Assets/Images/gdg_rajkot.jpeg"
+    "image": "Assets/Images/gdg_rajkot.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Salem",
-    "image": "Assets/Images/gdg_salem.jpeg"
+    "image": "Assets/Images/gdg_salem.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Siliguri",
-    "image": "Assets/Images/gdg_siliguri.jpg"
+    "image": "Assets/Images/gdg_siliguri.jpg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Srinagar",
-    "image": "Assets/Images/gdg_srinagar.jpeg"
+    "image": "Assets/Images/gdg_srinagar.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Surat",
-    "image": "Assets/Images/gdg_surat.jpeg"
+    "image": "Assets/Images/gdg_surat.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Trivantapuram",
-    "image": "Assets/Images/gdg_trivanthpuram.jpeg"
+    "image": "Assets/Images/gdg_trivanthpuram.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Udaipur",
-    "image": "Assets/Images/gdg_udaipur.jpeg"
+    "image": "Assets/Images/gdg_udaipur.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Vizag",
-    "image": "Assets/Images/gdg_vizag.jpeg"
+    "image": "Assets/Images/gdg_vizag.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     }
   ],
   [
     {
     "name": "GDG Cloud Ahemedabad",
-    "image": "Assets/Images/gdgc_ahm.jpeg"
+    "image": "Assets/Images/gdgc_ahm.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Cloud Bengaluru",
-    "image": "Assets/Images/gdgc_bengaluru.jpeg"
+    "image": "Assets/Images/gdgc_bengaluru.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Cloud Bhubaneswar",
-    "image": "Assets/Images/gdgc_bhubhneswar.jpeg"
+    "image": "Assets/Images/gdgc_bhubhneswar.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Cloud Chennai",
-    "image": "Assets/Images/gdgc_chennai.jpeg"
+    "image": "Assets/Images/gdgc_chennai.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Cloud Indore",
-    "image": "Assets/Images/gdgc_indore.jpeg"
+    "image": "Assets/Images/gdgc_indore.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Cloud Hyderabad",
-    "image": "Assets/Images/gdgc_hbd.jpeg"
+    "image": "Assets/Images/gdgc_hbd.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Cloud Jaipur",
-    "image": "Assets/Images/gdgc_jaipur.jpeg"
+    "image": "Assets/Images/gdgc_jaipur.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Cloud Kolkata",
-    "image": "Assets/Images/gdgc_kolkata.jpeg"
+    "image": "Assets/Images/gdgc_kolkata.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Cloud Mumbai",
-    "image": "Assets/Images/gdgc_mumbai.jpeg"
+    "image": "Assets/Images/gdgc_mumbai.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Cloud New Delhi",
-    "image": "Assets/Images/gdgc_newDelhi.jpeg"
+    "image": "Assets/Images/gdgc_newDelhi.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     },
     {
     "name": "GDG Cloud Pune",
-    "image": "Assets/Images/gdgc_pune.jpeg"
+    "image": "Assets/Images/gdgc_pune.jpeg",
+      "fb": "",
+      "linkedin":"",
+      "twitter": ""
     }
   ]
 ]

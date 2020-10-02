@@ -1,14 +1,14 @@
-import 'package:event_app/Helpers/Custom_Speaker_Card.dart';
 import 'package:flutter/material.dart';
+import 'Custom_Speaker_Card.dart';
 
 class AgendaContent extends StatelessWidget {
-  final ImageProvider image;
+  //final ImageProvider image;
   final String description;
   final String title;
   final String sessionDesc;
   final String sessionTime;
 
-  const AgendaContent({this.image, this.title,this.description,this.sessionDesc,this.sessionTime});
+  const AgendaContent({this.title,this.description,this.sessionDesc,this.sessionTime});
 
   @override
   Widget build(BuildContext context) {

@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 
 class Themes {
   static final ThemeData LightTheme = ThemeData(
-    //scaffoldBackgroundColor: Devfest.app_color,
     primaryColor: Colors.white,
     disabledColor: Colors.grey,
     cardColor: Colors.white,
@@ -19,7 +18,6 @@ class Themes {
         color: Colors.white, iconTheme: IconThemeData(color: Colors.black),
       textTheme:  TextTheme(),
     ),
-
   );
 
   static final ThemeData DarkTheme = ThemeData(

@@ -1,12 +1,14 @@
 import 'dart:convert';
-
+import 'dart:math';
 import 'package:event_app/Constant_info/Constants.dart';
-import 'package:event_app/Helpers/Custom_Speaker_Card.dart';
-import 'package:event_app/Screens/HomeScreen.dart';
-import 'package:event_app/Tab_Screens/Mobile_Speakers.dart';
+import 'package:event_app/ThemeBloc/AppTheme.dart';
+import 'package:event_app/ThemeBloc/export.dart';
+import 'package:event_app/UI_Components/Session_content.dart';
+import 'package:event_app/UI_Components/Tools.dart';
 import 'package:flutter/material.dart';
-import 'package:event_app/Helpers/Agenda_Content.dart';
-import 'package:event_app/Helpers/Custom_Scaffold.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+//import 'package:share/share.dart';
 
 class AgendaPage extends StatefulWidget {
   @override
@@ -15,6 +17,7 @@ class AgendaPage extends StatefulWidget {
 
 class _AgendaPageState extends State<AgendaPage>
     with SingleTickerProviderStateMixin {
+  bool _isThemeSwitch =false;
   TabController _AgendaTabscontroller;
 
   @override
@@ -33,52 +36,87 @@ class _AgendaPageState extends State<AgendaPage>
 
   @override
   Widget build(BuildContext context) {
-    return new CustomScaffold(
-      appTitle: 'Agenda',
-      popButton: IconButton(
-          icon: Icon(Icons.arrow_back),
-          onPressed: () {
-            setState(() {
-              Navigator.of(context).pushNamedAndRemoveUntil(
-                  '/home', ModalRoute.withName('/home'));
-            });
-          }),
-      tabBar: TabBar(
-        controller: _AgendaTabscontroller,
-        tabs: <Widget>[
-          Tab(
-            child: Text(
-              '16 October',
-              style: TextStyle(
-                  color: Theme.of(context).brightness == Brightness.dark
-                      ? Colors.white
-                      : Colors.black,
-                  fontFamily: 'OpenSans'),
+    return Scaffold(
+      appBar: AppBar(
+        bottom: TabBar(
+          controller: _AgendaTabscontroller,
+          indicatorColor: Tools.multiColors[Random().nextInt(4)],
+          tabs: <Widget>[
+            Tab(
+              child: Text(
+                'Day 1',
+                style: TextStyle(
+                    letterSpacing: 1.0,
+                    color: Theme.of(context).brightness == Brightness.dark
+                        ? Colors.white
+                        : Colors.black,
+                    fontFamily: 'OpenSans'
+                ),
+              ),
             ),
+            Tab(
+              child: Text(
+                'Day 2',
+                style: TextStyle(
+                    letterSpacing: 1.0,
+                    color: Theme.of(context).brightness == Brightness.dark
+                        ? Colors.white
+                        : Colors.black,
+                    fontFamily: 'OpenSans'),
+              ),
+            ),
+            Tab(
+              child: Text(
+                'Day 3',
+                style: TextStyle(
+                    letterSpacing: 1.0,
+                    color: Theme.of(context).brightness == Brightness.dark
+                        ? Colors.white
+                        : Colors.black,
+                    fontFamily: 'OpenSans'),
+              ),
+            )
+          ],
+        ),//widget.tabBar != null ? widget.tabBar : null,
+        title: Text(
+          'Agenda',
+          style: TextStyle(
+            letterSpacing: 1.0,
+            color: Theme.of(context).brightness == Brightness.dark
+                ? Colors.white
+                : Colors.black,
+            fontFamily: 'OpenSans',
           ),
-          Tab(
-            child: Text(
-              '17 October',
-              style: TextStyle(
-                  color: Theme.of(context).brightness == Brightness.dark
-                      ? Colors.white
-                      : Colors.black,
-                  fontFamily: 'OpenSans'),
-            ),
+        ),
+        actions: <Widget>[
+          IconButton(
+            icon: _isThemeSwitch
+                ? Icon(FontAwesomeIcons.sun)
+                : Icon(FontAwesomeIcons.moon),
+            onPressed: () {
+              _isThemeSwitch = _isThemeSwitch ? false : true;
+              setState(() {
+                if (_isThemeSwitch) {
+                  BlocProvider.of<ThemeBloc>(context)
+                      .dispatch(ThemeEvent(theme: Themes.DarkTheme));
+                } else {
+                  BlocProvider.of<ThemeBloc>(context)
+                      .dispatch(ThemeEvent(theme: Themes.LightTheme));
+                }
+              });
+            },
           ),
-          Tab(
-            child: Text(
-              '18 October',
-              style: TextStyle(
-                  color: Theme.of(context).brightness == Brightness.dark
-                      ? Colors.white
-                      : Colors.black,
-                  fontFamily: 'OpenSans'),
-            ),
-          )
+          SizedBox(
+            width: 5,
+          ),
+          IconButton(
+              icon: Icon(Icons.share),
+              onPressed: (){} /*=> Share.share(
+                  "Download the new GDG DevFest India App and share with your tech friends.\nPlayStore -  ")*/)
         ],
       ),
-      customBody: TabBarView(
+
+      body: TabBarView(
         controller: _AgendaTabscontroller,
         children: <Widget>[
           AgendaBodyWidget(),
@@ -86,7 +124,6 @@ class _AgendaPageState extends State<AgendaPage>
           AgendaBodyWidget(),
         ],
       ), //AgendaBodyWidget(),
-      customIcon: Icon(Icons.share),
     );
   }
 }
@@ -106,36 +143,21 @@ class AgendaBodyWidget extends StatelessWidget {
             return ListView.builder(
               itemCount: 8,
               itemBuilder: (context, index) {
-                var AgendaData = json.decode(snapshot.data.toString());
-                return AgendaContent(
-                  title: AgendaData['sessions'][index]['speaker_name'],
-                  description: AgendaData['sessions'][index]['session_title'],
-                  sessionDesc: AgendaData['sessions'][index]['session_desc'],
+                var agendaData = json.decode(snapshot.data.toString());
+                return SessionContent(
+                  description: agendaData['sessions'][index]['speaker_desc'],
+                  sessionSpeaker: agendaData['sessions'][index]['speaker_name'],
+                  title: agendaData['sessions'][index]['session_title'],
+                  image: AssetImage(Devfest.Harsh_Akshit_image),
+                  Duration: agendaData['sessions'][index]['session_total_time'],
+                  sessionTime: agendaData['sessions'][index]['session_start_time'],
                 );
               },
             );
           } else {
-            return CircularProgressIndicator();
+            return Center(child: CircularProgressIndicator());
           }
         });
   }
 }
 
-/*Column(
-      children: [
-        AgendaContent(
-          title: 'Agenda 1',
-          description:
-              'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-          image: AssetImage(Devfest.Harsh_Akshit_image),
-        ),
-        AgendaContent(
-          title: 'Agenda 2',
-          description:
-              'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since ',
-          image: AssetImage(Devfest.Harsh_Akshit_image),
-        )
-      ],
-    );
-  }
-}*/

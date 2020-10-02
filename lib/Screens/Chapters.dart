@@ -1,8 +1,14 @@
 import 'dart:convert';
-import 'package:event_app/Helpers/Custom_Scaffold.dart';
+import 'dart:math';
 import 'package:event_app/Tab_Screens/GDG_Chapter_Screens.dart';
 import 'package:event_app/Tab_Screens/GDG_Cloud_Chapters_Screen.dart';
+import 'package:event_app/ThemeBloc/AppTheme.dart';
+import 'package:event_app/ThemeBloc/export.dart';
+import 'package:event_app/UI_Components/Tools.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+//import 'package:share/share.dart';
 
 class ChapterScreen extends StatefulWidget {
   @override
@@ -11,6 +17,7 @@ class ChapterScreen extends StatefulWidget {
 
 class _ChapterScreenState extends State<ChapterScreen>
     with SingleTickerProviderStateMixin {
+  bool _isThemeSwitch=false;
   TabController _controller;
   @override
   void initState() {
@@ -28,46 +35,84 @@ class _ChapterScreenState extends State<ChapterScreen>
 
   @override
   Widget build(BuildContext context) {
-    return CustomScaffold(
-        appTitle: 'GDG Chapters India',
-        popButton: IconButton(
-            icon: Icon(Icons.arrow_back),
-            onPressed: () {
-              setState(() {
-                Navigator.of(context).pushNamedAndRemoveUntil(
-                    '/home', ModalRoute.withName('/home'));
-              });
-            }),
-        customIcon: Icon(Icons.share),
-        tabBar: TabBar(
-          isScrollable: true,
-          controller: _controller,
-          tabs: <Widget>[
-            Tab(
-              child: Text(
-                'GDG Chapters',
-                style: Theme.of(context).brightness == Brightness.light
-                    ? Theme.of(context)
-                        .textTheme
-                        .subhead
-                        .copyWith(fontFamily: 'OpenSans', color: Colors.black)
-                    : null,
+    return Scaffold(
+        appBar:  AppBar(
+          bottom: TabBar(
+            indicatorColor: Tools.multiColors[Random().nextInt(4)],
+            isScrollable: true,
+            controller: _controller,
+            tabs: <Widget>[
+              Tab(
+                child: Text(
+                  'GDG Chapters',
+                  style: Theme.of(context).brightness == Brightness.light
+                      ? Theme.of(context)
+                      .textTheme
+                      .subhead
+                      .copyWith(fontFamily: 'OpenSans', color: Colors.black,  fontWeight: FontWeight.bold,
+                    letterSpacing: 1.0,)
+                      : Theme.of(context)
+                      .textTheme
+                      .subhead
+                      .copyWith(fontFamily: 'OpenSans', color: Colors.white, letterSpacing: 1.0),
+                ),
               ),
-            ),
-            Tab(
-              child: Text(
-                'GDG Cloud Chapters',
-                style: Theme.of(context).brightness == Brightness.light
-                    ? Theme.of(context)
-                        .textTheme
-                        .subhead
-                        .copyWith(fontFamily: 'OpenSans', color: Colors.black)
-                    : null,
+              Tab(
+                child: Text(
+                  'GDG Cloud Chapters',
+                  style: Theme.of(context).brightness == Brightness.light
+                      ? Theme.of(context)
+                      .textTheme
+                      .subhead
+                      .copyWith(fontFamily: 'OpenSans', color: Colors.black,
+                    letterSpacing: 1.0,)
+                      : Theme.of(context)
+                      .textTheme
+                      .subhead
+                      .copyWith(fontFamily: 'OpenSans', color: Colors.white,letterSpacing: 1.0),
+                ),
               ),
+            ],
+          ),
+          title: Text(
+            'GDG Community',
+            style: TextStyle(
+              color: Theme.of(context).brightness == Brightness.dark
+                  ? Colors.white
+                  : Colors.black,
+              letterSpacing: 1.0,
+              fontFamily: 'Opensans'
             ),
+          ),
+          actions: <Widget>[
+            IconButton(
+              icon: _isThemeSwitch
+                  ? Icon(FontAwesomeIcons.sun)
+                  : Icon(FontAwesomeIcons.moon),
+              onPressed: () {
+                _isThemeSwitch = _isThemeSwitch ? false : true;
+                setState(() {
+                  if (_isThemeSwitch) {
+                    BlocProvider.of<ThemeBloc>(context)
+                        .dispatch(ThemeEvent(theme: Themes.DarkTheme));
+                  } else {
+                    BlocProvider.of<ThemeBloc>(context)
+                        .dispatch(ThemeEvent(theme: Themes.LightTheme));
+                  }
+                });
+              },
+            ),
+            SizedBox(
+              width: 5,
+            ),
+            IconButton(
+                icon: Icon(Icons.share),
+                onPressed: (){}/* Share.share(
+                    "Download the new GDG DevFest India App and share with your tech friends.\nPlayStore -  ")*/
+            )
           ],
         ),
-        customBody: Container(
+        body: Container(
           child: FutureBuilder(
               future: DefaultAssetBundle.of(context)
                   .loadString('Assets/JSON/Chapters.json'),
@@ -82,7 +127,7 @@ class _ChapterScreenState extends State<ChapterScreen>
                     ],
                   );
                 }else{
-                  return null;
+                  return CircularProgressIndicator();
                 }
               }),
         ));

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+//import 'package:url_launcher/url_launcher.dart';
 
 class GDGChapterCards extends StatelessWidget {
   var mydata;
@@ -11,6 +12,13 @@ class GDGChapterCards extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+   /* Future<void> _launchURL(String Url) async{
+      if(await canLaunch(Url)){
+        await launch(Url);
+      }else{
+        throw 'Cannot reach $Url, Check your Internet Connection';
+      }
+    }*/
     return ListView.builder(
         itemCount: 39,
         itemBuilder: (context, index) {
@@ -63,33 +71,40 @@ class GDGChapterCards extends StatelessWidget {
                                             .facebookF,
                                         color: Colors.white,
                                       ),
-                                      onPressed: () {}),
+                                      onPressed: () {
+                                      //  _launchURL(mydata[0][index]['fb']);
+                                      }),
                                   IconButton(
                                       icon: Icon(
                                         FontAwesomeIcons
                                             .linkedin,
                                         color: Colors.white,
                                       ),
-                                      onPressed: () {}),
+                                      onPressed: () {
+                                      //  _launchURL(mydata[0][index]['linkedin']);
+                                      }),
                                   IconButton(
                                       icon: Icon(
                                           FontAwesomeIcons
                                               .twitter,
                                           color: Colors.white),
-                                      onPressed: () {}),
-                                  IconButton(
+                                      onPressed: () {
+                                      //  _launchURL(mydata[0][index]['twitter']);
+                                      }),
+                                  /*IconButton(
                                       icon: Icon(
                                         FontAwesomeIcons.meetup,
                                         color: Colors.white,
                                       ),
-                                      onPressed: () {}),
+                                      onPressed: () {}),*/
                                   IconButton(
                                       icon: Icon(
                                         FontAwesomeIcons
                                             .instagram,
                                         color: Colors.white,
                                       ),
-                                      onPressed: () {})
+                                      onPressed: () {}
+                                      ),
                                 ],
                               )
                             ],
