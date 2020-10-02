@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'Custom_Dialog.dart';
 import 'Tools.dart';
 
 class sessionCard extends StatelessWidget {
@@ -26,7 +27,18 @@ class sessionCard extends StatelessWidget {
     return Card(
       elevation: 0.0,
       child: ListTile(
-        onTap: () {},
+        onTap: (){
+          showDialog(
+              context: context,
+              builder: (context) {
+                return CustomDialog(
+                  Speaker: SpeakerName,
+                  Desc: SpeakerDesc,
+                  imageProvider:
+                  AssetImage('Assets/Images/harsh_akshit.jpeg'),
+                );
+              });
+        },
         isThreeLine: true,
         trailing: RichText(
           textAlign: TextAlign.center,

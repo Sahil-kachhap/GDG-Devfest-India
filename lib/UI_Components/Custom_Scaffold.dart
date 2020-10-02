@@ -58,45 +58,6 @@ class _CustomScaffoldState extends State<CustomScaffold> {
     }
     return SafeArea(
       child: Scaffold(
-         /* appBar: AppBar(
-            leading: widget.popButton != null ? widget.popButton : null,
-            bottom: widget.tabBar != null ? widget.tabBar : null,
-            title: Text(
-              widget.appTitle,
-              style: TextStyle(
-                color: Theme.of(context).brightness == Brightness.dark
-                    ? Colors.white
-                    : Colors.black,
-                fontFamily: 'OpenSans',
-              ),
-            ),
-            actions: <Widget>[
-              IconButton(
-                icon: _isThemeSwitch
-                    ? Icon(FontAwesomeIcons.sun)
-                    : Icon(FontAwesomeIcons.moon),
-                onPressed: () {
-                  _isThemeSwitch = _isThemeSwitch ? false : true;
-                  setState(() {
-                    if (_isThemeSwitch) {
-                      BlocProvider.of<ThemeBloc>(context)
-                          .dispatch(ThemeEvent(theme: Themes.DarkTheme));
-                    } else {
-                      BlocProvider.of<ThemeBloc>(context)
-                          .dispatch(ThemeEvent(theme: Themes.LightTheme));
-                    }
-                  });
-                },
-              ),
-              SizedBox(
-                width: 5,
-              ),
-              IconButton(
-                  icon: Icon(Icons.share),
-                  onPressed: () => Share.share(
-                      "Download the new GDG DevFest India App and share with your tech friends.\nPlayStore -  "))
-            ],
-          ),*/
           body: _screens.elementAt(_currentIndex),
           bottomNavigationBar: BottomNavigationBar(
             type: BottomNavigationBarType.fixed,

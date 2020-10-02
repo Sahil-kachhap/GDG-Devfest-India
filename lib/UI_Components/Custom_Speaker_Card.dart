@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'Tools.dart';
 
 class CustomSpeakerCard extends StatelessWidget {
-  final ImageProvider image;
+  final String image;
   final String SpeakerName;
   final String SpeakerTopic;
   final String SpeakerDesc;
@@ -34,7 +34,7 @@ class CustomSpeakerCard extends StatelessWidget {
                 height: MediaQuery.of(context).size.height * 0.2,
                 width: MediaQuery.of(context).size.width * 0.3,
               ),
-              child: Image(image: image),
+              child: Image.network(image),
             ),
             SizedBox(width: 20),
             Expanded(

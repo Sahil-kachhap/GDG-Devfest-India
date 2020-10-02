@@ -2,73 +2,92 @@
   [
     {
     "name": "GDG Ahemedabad",
-    "image": "Assets/Images/gdg_ahm.jpeg",
+    "image":"Assets/Images/gdg_ahm.jpeg",
+    "image_link":"https://devfest.gdgahmedabad.com/images/backgrounds/home.jpg",
     "fb": "https://www.facebook.com/GDGAhmedabad/",
     "linkedin": "https://www.linkedin.com/company/gdg-ahmedabad/",
-    "twitter": "https://twitter.com/GDGAhmedabad"
+    "twitter": "https://twitter.com/GDGAhmedabad",
+    "insta": "https://www.instagram.com/GDGCloudAhm/"
     },
     {
     "name": "GDG Bangalore",
+    "image_link":  "https://miro.medium.com/max/4440/1*uByFQ3rkPtFrnvZokzOmfw.jpeg",
     "image": "Assets/Images/gdg_bnglr.jpeg",
-     "fb": "",
-      "linkedin":"",
-      "twitter": ""
-    },
-    {
-    "name": "GDG Kolkata",
-    "image": "Assets/Images/gdg_img.jpeg",
-      "fb": "",
-      "linkedin":"",
-      "twitter": ""
-    },
-    {
-    "name": "GDG New Delhi",
-    "image": "Assets/Images/gdg_delhi.JPG",
-      "fb": "",
-      "linkedin":"",
-      "twitter": ""
-    },
-    {
-    "name": "GDG Ranchi",
-    "image": "Assets/Images/ranchi.jpeg",
-      "fb": "",
-      "linkedin":"",
-      "twitter": ""
-    },
-    {
-    "name": "GDG Bhubaneswar",
-    "image": "Assets/Images/gdg_bbsr.jpg",
-      "fb": "",
-      "linkedin":"",
-      "twitter": ""
-    },
-    {
-    "name": "GDG Pune",
-    "image": "Assets/Images/gdg_pune.jpeg",
-      "fb": "",
-      "linkedin":"",
-      "twitter": ""
-    },
-    {
-    "name": "GDG Patna",
-    "image": "Assets/Images/gdg_patna.png",
-      "fb": "",
-      "linkedin":"",
-      "twitter": ""
+     "fb": "https://www.facebook.com/GDG-Bangalore-101204221589426",
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+      "twitter": "https://twitter.com/gdgblr",
+      "insta": ""
     },
     {
     "name": "GDG Baroda",
-    "image": "Assets/Images/gdg_baroda.jpeg",
-      "fb": "",
-      "linkedin":"",
-      "twitter": ""
+      "image_link": "https://gdgbaroda.com/cover-image-team.jpg",
+    "image": "Assets/Images/gdg_img.jpeg",
+      "fb": "https://facebook.com/gdgbaroda",
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+      "twitter": "https://twitter.com/gdgbaroda",
+      "insta": ""
     },
     {
     "name": "GDG Bhilai",
+    "image_link":"https://secure.meetupstatic.com/photos/event/7/d/0/e/highres_491312014.jpeg",
+    "image": "Assets/Images/gdg_delhi.JPG",
+      "fb": "https://fb.me/gdgbhilai",
+      "linkedin":"",
+      "twitter": "https://twitter.com/GDG_Bhilai",
+      "insta": ""
+    },
+    {
+    "name": "GDG Bhopal",
+      "image_link": "https://secure.meetupstatic.com/photos/event/7/d/0/e/highres_491312014.jpeg",
+    "image": "Assets/Images/ranchi.jpeg",
+      "fb": "https://facebook.com/GDGBhopal",
+      "linkedin":"https://www.linkedin.com/company/gdgbhopal",
+      "twitter": "https://twitter.com/gdg_bhopal",
+      "insta": ""
+    },
+    {
+    "name": "GDG Bhubaneswar",
+      "image_link": "https://secure.meetupstatic.com/photos/event/2/b/7/4/highres_464411124.jpeg",
+    "image": "Assets/Images/gdg_bbsr.jpg",
+      "fb": "http://facebook.com/GDGBBSR/",
+      "linkedin":"",
+      "twitter": "https://twitter.com/gdgbbsr",
+      "insta": "https://www.instagram.com/gdgbbsr"
+    },
+    {
+    "name": "GDG Blrdroid",
+      "image_link": "https://secure.meetupstatic.com/photos/event/d/b/9/9/highres_473936217.jpeg",
+    "image": "Assets/Images/gdg_pune.jpeg",
+      "fb": "",
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+      "twitter": "https://twitter.com/gdg",
+      "insta": ""
+    },
+    {
+    "name": "GDG Chandigarh",
+      "image_link": "https://secure.meetupstatic.com/photos/event/5/e/7/a/highres_485304186.jpeg",
+    "image": "Assets/Images/gdg_patna.png",
+      "fb": "https://www.facebook.com/gdgchd/",
+      "linkedin":"https://www.linkedin.com/company/gdg-chandigarh",
+      "twitter": "https://twitter.com/ChandigarhGdg",
+      "insta": "https://www.instagram.com/gdgchandigarh"
+    },
+    {
+    "name": "GDG Chennai",
+      "image_link": "https://secure.meetupstatic.com/photos/event/9/7/b/2/highres_471158834.jpeg",
+    "image": "Assets/Images/gdg_baroda.jpeg",
+      "fb": "https://www.facebook.com/GDGChennai/",
+      "linkedin":"https://www.linkedin.com/company/gdg-chennai/",
+      "twitter": "https://twitter.com/gdgchennai",
+      "insta": "https://www.instagram.com/gdgchennai"
+    },
+    {
+    "name": "GDG Cochin",
+      "image_link": "https://secure.meetupstatic.com/photos/event/2/8/8/b/highres_467650379.jpeg",
     "image": "Assets/Images/gdg_bhilai.png",
       "fb": "",
-      "linkedin":"",
-      "twitter": ""
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+      "twitter": "https://twitter.com/gdg"
     },
     {
     "name": "GDG Bhopal",
@@ -100,6 +119,7 @@
     },
     {
     "name": "GDG Cochin",
+
     "image": "Assets/Images/gdg_cochin.jpeg",
       "fb": "",
       "linkedin":"",
@@ -277,80 +297,105 @@
   [
     {
     "name": "GDG Cloud Ahemedabad",
+      "image_link": "https://secure.meetupstatic.com/photos/event/d/4/7/f/highres_487554399.jpeg",
     "image": "Assets/Images/gdgc_ahm.jpeg",
-      "fb": "",
+      "fb": "https://www.facebook.com/gdgcloudahm/",
       "linkedin":"",
-      "twitter": ""
+      "twitter": "https://twitter.com/GDGCloudAhm",
+      "insta": "https://www.instagram.com/GDGCloudAhm"
     },
     {
     "name": "GDG Cloud Bengaluru",
+      "image_link": "https://secure.meetupstatic.com/photos/event/7/5/d/f/highres_479310175.jpeg",
     "image": "Assets/Images/gdgc_bengaluru.jpeg",
       "fb": "",
-      "linkedin":"",
-      "twitter": ""
+      "linkedin":"https://www.linkedin.com/in/gdgcblr",
+      "twitter": "https://twitter.com/gcdcblr"
     },
     {
     "name": "GDG Cloud Bhubaneswar",
+      "image_link": "https://cdn.eventil.com/uploads/event/header_image/329763/card_highres_472476673.jpg",
     "image": "Assets/Images/gdgc_bhubhneswar.jpeg",
       "fb": "",
-      "linkedin":"",
-      "twitter": ""
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+      "twitter": "https://twitter.com/gdg"
     },
     {
     "name": "GDG Cloud Chennai",
+      "image_link": "https://secure.meetupstatic.com/photos/event/9/1/b/f/highres_484537311.jpeg",
     "image": "Assets/Images/gdgc_chennai.jpeg",
-      "fb": "",
+      "fb": "http://www.facebook.com/GdgCloudChennai",
       "linkedin":"",
-      "twitter": ""
+      "twitter": "https://twitter.com/GdgCloudChennai",
+      "insta": "https://www.instagram.com/GdgCloudChennai"
     },
     {
-    "name": "GDG Cloud Indore",
+    "name": "GDG Cloud Coimbatore",
+      "image_link": "https://secure.meetupstatic.com/photos/event/9/2/f/d/600_482977629.jpeg",
     "image": "Assets/Images/gdgc_indore.jpeg",
       "fb": "",
-      "linkedin":"",
-      "twitter": ""
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+      "twitter": "https://twitter.com/gdgcloudcbe",
+      "insta" : ""
     },
     {
     "name": "GDG Cloud Hyderabad",
+      "image_link": "https://secure.meetupstatic.com/photos/event/1/4/c/e/highres_490385326.jpeg",
     "image": "Assets/Images/gdgc_hbd.jpeg",
-      "fb": "",
-      "linkedin":"",
-      "twitter": ""
+      "fb": "https://www.facebook.com/gdgchyd/?modal=admin_todo_tour",
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+      "twitter": "https://twitter.com/gdgc_hyd",
+      "insta": "https://www.instagram.com/https://www.instagram.com/gdghyderabad/"
+    },
+    {
+    "name": "GDG Cloud Indore",
+      "image_link": "https://secure.meetupstatic.com/photos/event/9/7/0/4/highres_480038660.jpeg",
+    "image": "Assets/Images/gdgc_jaipur.jpeg",
+      "fb": "https://www.facebook.com/gdgcloudindore/",
+      "linkedin":"https://www.linkedin.com/company/gdgcloudindore",
+      "twitter": "https://twitter.com/gdgcloudindore",
+      "insta": "https://www.instagram.com/gdgcloudindore"
     },
     {
     "name": "GDG Cloud Jaipur",
-    "image": "Assets/Images/gdgc_jaipur.jpeg",
+      "image_link": "https://secure.meetupstatic.com/photos/event/c/d/0/4/highres_484132484.jpeg",
+    "image": "Assets/Images/gdgc_kolkata.jpeg",
       "fb": "",
-      "linkedin":"",
-      "twitter": ""
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+      "twitter": "https://twitter.com/gdg"
     },
     {
     "name": "GDG Cloud Kolkata",
-    "image": "Assets/Images/gdgc_kolkata.jpeg",
+      "image_link": "https://secure.meetupstatic.com/photos/event/8/6/a/4/highres_481414468.jpeg",
+    "image": "Assets/Images/gdgc_mumbai.jpeg",
       "fb": "",
-      "linkedin":"",
-      "twitter": ""
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+      "twitter": "https://twitter.com/gdg"
     },
     {
     "name": "GDG Cloud Mumbai",
-    "image": "Assets/Images/gdgc_mumbai.jpeg",
-      "fb": "",
-      "linkedin":"",
-      "twitter": ""
+     "image_link": "https://secure.meetupstatic.com/photos/event/c/5/3/highres_478923155.jpeg",
+    "image": "Assets/Images/gdgc_newDelhi.jpeg",
+      "fb": "https://www.facebook.com/gdgcloudmumbai",
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+      "twitter": "https://twitter.com/GDGCloudMumbai",
+      "insta": "https://www.instagram.com/gdgcloudmumbai"
     },
     {
     "name": "GDG Cloud New Delhi",
-    "image": "Assets/Images/gdgc_newDelhi.jpeg",
-      "fb": "",
-      "linkedin":"",
-      "twitter": ""
-    },
-    {
-    "name": "GDG Cloud Pune",
+      "image_link": "https://secure.meetupstatic.com/photos/event/a/2/4/e/highres_471941550.jpeg",
     "image": "Assets/Images/gdgc_pune.jpeg",
       "fb": "",
-      "linkedin":"",
-      "twitter": ""
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+      "twitter": "https://twitter.com/gdg"
+    },
+    {
+      "name": "GDG Cloud Pune",
+      "image_link": "https://secure.meetupstatic.com/photos/event/a/3/c/1/highres_482321921.jpeg",
+      "image": "Assets/Images/gdgc_pune.jpeg",
+      "fb": "",
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+      "twitter": "https://twitter.com/gdgcloudpune"
     }
   ]
 ]

@@ -18,16 +18,5 @@ class AgendaContent extends StatelessWidget {
         SpeakerDesc: sessionDesc,
         session_time: sessionTime,
     );
-     /* Card(
-      margin: EdgeInsets.all(10.0),
-      child: ListTile(
-        leading: CircleAvatar(
-          radius: 30.0,
-          backgroundImage: image,
-        ),
-        title: Text(title),
-        //subtitle: Text(description),
-      ),
-    );*/
   }
 }

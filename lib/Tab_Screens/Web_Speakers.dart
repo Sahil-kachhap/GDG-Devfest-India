@@ -4,15 +4,12 @@ import 'package:event_app/UI_Components/Custom_Speaker_Card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 
-class MobileSpeakers extends StatefulWidget {
-  final String mobileTrack;
-
-  const MobileSpeakers({Key key, this.mobileTrack}) : super(key: key);
+class WebSpeakers extends StatefulWidget {
   @override
-  _MobileSpeakersState createState() => _MobileSpeakersState();
+  _WebSpeakersState createState() => _WebSpeakersState();
 }
 
-class _MobileSpeakersState extends State<MobileSpeakers> {
+class _WebSpeakersState extends State<WebSpeakers> {
   @override
   Widget build(BuildContext context) {
     return FutureBuilder(
@@ -21,19 +18,19 @@ class _MobileSpeakersState extends State<MobileSpeakers> {
         builder: (context, snapshot) {
           if (snapshot.hasData) {
             return ListView.builder(
-              itemCount: 6,
+              itemCount: 5,
               shrinkWrap: true,
               itemBuilder: (context, index) {
                 var SpeakerData = json.decode(snapshot.data.toString());
-                  return CustomSpeakerCard(
-                    SpeakerName: SpeakerData['mobile'][index]['speaker_name'],
-                    SpeakerTopic: SpeakerData['mobile'][index]
-                        ['speaker_desc'],
-                    SpeakerDesc: SpeakerData['mobile'][index]['speaker_desc'],
-                    session_time: SpeakerData['mobile'][index]
-                        ['speaker_session'],
-                    image: SpeakerData['mobile'][index]['speaker_image'],
-                  );
+                return CustomSpeakerCard(
+                  SpeakerName: SpeakerData['web'][index]['speaker_name'],
+                  SpeakerTopic: SpeakerData['web'][index]
+                  ['speaker_desc'],
+                  SpeakerDesc: SpeakerData['web'][index]['speaker_desc'],
+                  session_time: SpeakerData['web'][index]
+                  ['speaker_session'],
+                  image: SpeakerData['web'][index]['speaker_image'],
+                );
               },
             );
           } else {

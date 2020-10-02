@@ -23,7 +23,7 @@ class CustomDialog extends StatelessWidget {
             alignment: Alignment.topCenter,
             children: <Widget>[
               Container(
-                height: MediaQuery.of(context).size.height - 150,
+                height: MediaQuery.of(context).size.height - 300,
                 child: Padding(
                   padding: const EdgeInsets.all(20.0),
                   child: Column(
@@ -70,12 +70,6 @@ class CustomDialog extends StatelessWidget {
                     SizedBox(
                       height: 60.0,
                     ),
-                      Align(
-                        alignment: Alignment.bottomRight,
-                        child: FloatingActionButton(
-                          child: Icon(FontAwesomeIcons.video),
-                          onPressed: (){},),
-                      )
                     ],
                   ),
                 ),

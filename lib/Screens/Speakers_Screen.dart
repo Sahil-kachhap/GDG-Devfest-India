@@ -1,6 +1,9 @@
 import 'dart:math';
 
+import 'package:event_app/Tab_Screens/Cloud_Speakers.dart';
+import 'package:event_app/Tab_Screens/ML_Speakers.dart';
 import 'package:event_app/Tab_Screens/Mobile_Speakers.dart';
+import 'package:event_app/Tab_Screens/Web_Speakers.dart';
 import 'package:event_app/ThemeBloc/AppTheme.dart';
 import 'package:event_app/ThemeBloc/export.dart';
 import 'package:event_app/UI_Components/Tools.dart';
@@ -141,11 +144,10 @@ class _SpeakerScreenState extends State<SpeakerScreen>
       body: TabBarView(
         controller: controller,
         children: <Widget>[
-          MobileSpeakers(mobileTrack: 'Mobile',),
-         // Center(child: Text('Mobile Speakers will be displayed here')),
-          Center(child: Text('Cloud Speakers will be displayed here')),
-          Center(child: Text('Web Speakers will be displayed here')),
-          Center(child: Text('ML Speakers will be displayed here')),
+          MobileSpeakers(),
+          CloudSpeakers(),
+          WebSpeakers(),
+          MLSpeakers(),
           Center(child: Text('Design Speakers will be displayed here')),
         ],
       ),
