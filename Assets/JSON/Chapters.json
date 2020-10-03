@@ -90,25 +90,29 @@
       "twitter": "https://twitter.com/gdg"
     },
     {
-    "name": "GDG Bhopal",
+    "name": "GDG Coimbatore",
+      "image_link": "https://secure.meetupstatic.com/photos/event/3/b/d/7/highres_485655319.jpeg",
     "image": "Assets/Images/gdg_bhopal.jpeg",
-      "fb": "",
-      "linkedin":"",
-      "twitter": ""
+      "fb": "https://facebook.com/gdgcoimbatore",
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+      "twitter": "https://twitter.com/gdgcoimbatore",
+      "insta": "https://www.instagram.com/Gdgcoimbatore"
     },
     {
-    "name": "GDG Gwalior",
+    "name": "GDG Gandhinagar",
+      "image_link": "https://secure.meetupstatic.com/photos/event/d/5/2/0/600_479094560.jpeg",
     "image": "Assets/Images/gdg_gwalior.jpg",
       "fb": "",
-      "linkedin":"",
-      "twitter": ""
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+      "twitter": "https://twitter.com/gdg"
     },
     {
-    "name": "GDG Chandigarh",
+    "name": "GDG Goa",
+      "image_link": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fv1QxUHZHO7U%2Fmaxresdefault.jpg&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dv1QxUHZHO7U&tbnid=J1LfsXuU6QxreM&vet=12ahUKEwi5uKaC_JbsAhUCMysKHRZHA-YQMygBegUIARCNAQ..i&docid=9pqi7M8vC9CRiM&w=1280&h=720&q=gdg%20goa%5C&ved=2ahUKEwi5uKaC_JbsAhUCMysKHRZHA-YQMygBegUIARCNAQ",
     "image": "Assets/Images/gdg_chandigarh.jpeg",
       "fb": "",
-      "linkedin":"",
-      "twitter": ""
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+      "twitter": "https://twitter.com/gdg"
     },
     {
     "name": "GDG Chennai",
@@ -118,50 +122,55 @@
       "twitter": ""
     },
     {
-    "name": "GDG Cochin",
-
+    "name": "GDG Gwalior",
+     "image_link": "https://pbs.twimg.com/profile_images/1301163394376986624/hbVjgq2E.jpg",
     "image": "Assets/Images/gdg_cochin.jpeg",
-      "fb": "",
-      "linkedin":"",
-      "twitter": ""
-    },
-    {
-    "name": "GDG Coimbatore",
-    "image": "Assets/Images/gdg_coimbatore.jpeg",
-      "fb": "",
-      "linkedin":"",
-      "twitter": ""
-    },
-    {
-    "name": "GDG Gandhinagar",
-    "image": "Assets/Images/gdg_gandhinagar.jpeg",
-      "fb": "",
-      "linkedin":"",
-      "twitter": ""
-    },
-    {
-    "name": "GDG Goa",
-    "image": "Assets/Images/gdg_goa.jpg",
-      "fb": "",
-      "linkedin":"",
-      "twitter": ""
+      "fb": "https://www.facebook.com/GDGChapterGwalior/",
+      "linkedin":"https://www.linkedin.com/company/gdggwalior",
+      "twitter": "https://twitter.com/GdgGwalior"
     },
     {
     "name": "GDG Hubli",
-    "image": "Assets/Images/gdg_hubli.jpeg",
+      "image_link": "",
+    "image": "Assets/Images/gdg_coimbatore.jpeg",
       "fb": "",
-      "linkedin":"",
-      "twitter": ""
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+      "twitter": "https://twitter.com/gdg"
     },
     {
     "name": "GDG Hyderabad",
-    "image": "Assets/Images/gdg_hbd.jpg",
-      "fb": "",
-      "linkedin":"",
-      "twitter": ""
+      "image_link": "",
+    "image": "Assets/Images/gdg_gandhinagar.jpeg",
+      "fb": "https://www.facebook.com/gdghyd/",
+      "linkedin":"https://www.linkedin.com/company/13401596/",
+      "twitter": "https://twitter.com/gdg_hyd"
     },
     {
     "name": "GDG Indore",
+      "image_link": "",
+    "image": "Assets/Images/gdg_goa.jpg",
+      "fb": "https://www.facebook.com/gdgindore",
+      "linkedin":"https://www.linkedin.com/company/gdg-indore",
+      "twitter": "https://twitter.com/GDG_Indore"
+    },
+    {
+    "name": "GDG Jaipur",
+      "image_link": "",
+    "image": "Assets/Images/gdg_hubli.jpeg",
+      "fb": "",
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+      "twitter": "https://twitter.com/gdgjaipur"
+    },
+    {
+    "name": "GDG Jalandhar",
+      "image_link": "",
+    "image": "Assets/Images/gdg_hbd.jpg",
+      "fb": "https://www.facebook.com/GDGJalandhar",
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+      "twitter": "https://twitter.com/gdgjalandhar"
+    },
+    {
+    "name": "GDG Jodhpur",
     "image": "Assets/Images/gdg_indore.jpeg",
       "fb": "",
       "linkedin":"",
@@ -171,8 +180,8 @@
     "name": "GDG Jaipur",
     "image": "Assets/Images/gdg_jaipur.jpg",
       "fb": "",
-      "linkedin":"",
-      "twitter": ""
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+      "twitter": "https://twitter.com/gdg"
     },
     {
     "name": "GDG Jalandhar",

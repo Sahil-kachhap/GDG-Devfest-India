@@ -127,7 +127,7 @@ class _ChapterScreenState extends State<ChapterScreen>
                     ],
                   );
                 }else{
-                  return CircularProgressIndicator();
+                  return Center(child: CircularProgressIndicator());
                 }
               }),
         ));

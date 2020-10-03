@@ -1,5 +1,7 @@
 import 'dart:convert';
+import 'dart:math';
 import 'package:event_app/UI_Components/Custom_Speaker_Card.dart';
+import 'package:event_app/UI_Components/Tools.dart';
 import 'package:flutter/material.dart';
 
 class MLSpeakers extends StatefulWidget {
@@ -31,7 +33,7 @@ class _MLSpeakersState extends State<MLSpeakers> {
                   );
                 });
           }else{
-            return CircularProgressIndicator();
+            return Center(child: CircularProgressIndicator(backgroundColor: Tools.multiColors[Random().nextInt(4)],));
           }
         });
   }

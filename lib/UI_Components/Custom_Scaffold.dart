@@ -5,35 +5,25 @@ import 'package:event_app/Screens/Chapters.dart';
 import 'package:event_app/Screens/FAQ.dart';
 import 'package:event_app/Screens/HomeScreen.dart';
 import 'package:event_app/Screens/Speakers_Screen.dart';
+import 'package:event_app/ThemeBloc/AppTheme.dart';
+import 'package:event_app/ThemeBloc/Bloc.dart';
+import 'package:event_app/ThemeBloc/export.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import 'Tools.dart';
 //import 'package:share/share.dart';
 
 class CustomScaffold extends StatefulWidget {
- /* final String appTitle;
-  final Icon customIcon;
-  final Widget customBody;
-  final Widget tabBar;
-  final Widget popButton;
-
-  CustomScaffold(
-      {@required this.appTitle,
-      @required this.customIcon,
-      @required this.customBody,
-      this.tabBar,
-      this.popButton});*/
-
   @override
   _CustomScaffoldState createState() => _CustomScaffoldState();
 }
 
 class _CustomScaffoldState extends State<CustomScaffold> {
- // bool _isThemeSwitch = false;
-  // int indexBottom=2;
   int _currentIndex = 2;
 
   List<Widget> _screens = <Widget>[
@@ -49,7 +39,6 @@ class _CustomScaffoldState extends State<CustomScaffold> {
       _currentIndex = index;
     });
   }
-
   @override
   Widget build(BuildContext context) {
     Future<bool> _willPopCallback() async {
@@ -84,3 +73,4 @@ class _CustomScaffoldState extends State<CustomScaffold> {
     );
   }
 }
+

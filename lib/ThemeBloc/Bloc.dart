@@ -1,5 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:event_app/ThemeBloc/export.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'AppTheme.dart';
 
 class ThemeBloc extends Bloc<ThemeEvent,ThemeState>{
@@ -13,6 +14,11 @@ class ThemeBloc extends Bloc<ThemeEvent,ThemeState>{
     if(event is ThemeEvent){
       yield ThemeState(theme: event.theme);
     }
+  }
+
+  _persistTheme(Themes theme) async{
+    SharedPreferences prefs= await SharedPreferences.getInstance();
+    prefs.setString("SelectedThemeIndex", theme.toString());
   }
 
 }

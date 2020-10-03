@@ -1,5 +1,4 @@
 import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'Tools.dart';
 
@@ -30,12 +29,19 @@ class CustomSpeakerCard extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: <Widget>[
             ConstrainedBox(
-              constraints: BoxConstraints.expand(
-                height: MediaQuery.of(context).size.height * 0.2,
-                width: MediaQuery.of(context).size.width * 0.3,
-              ),
-              child: Image.network(image),
-            ),
+                constraints: BoxConstraints.expand(
+                  height: MediaQuery.of(context).size.height * 0.2,
+                  width: MediaQuery.of(context).size.width * 0.3,
+                ),
+              /*TODO: pub get the cached_network_image package. and then uncomment the below code.
+                child: CachedNetworkImage(
+                  imageUrl: image,
+                  placeholder: (context, url) =>
+                      Image.asset('Assets/Images/logo.jpg'),
+                  errorWidget: (context, url, error) => Icon(Icons.error),
+                )*/
+              child: Image.network(image),//TODO: After uncommenting above code , comment or remove this line.
+                ),
             SizedBox(width: 20),
             Expanded(
                 child: Column(

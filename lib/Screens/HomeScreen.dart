@@ -11,8 +11,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-//import 'package:share/share.dart';
-//import 'package:url_launcher/url_launcher.dart';
+import 'package:url_launcher/url_launcher.dart';
+
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -20,15 +20,15 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  bool _isThemeSwitch = false;
+  bool _isThemeSwitch=false ;
 
-  /*Future<void> _launchURL(String Url) async {
+  Future<void> _launchURL(String Url) async {
     if (await canLaunch(Url)) {
       await launch(Url);
     } else {
       throw 'Cannot reach $Url, Check your Internet Connection';
     }
-  }*/
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -59,7 +59,8 @@ class _HomeScreenState extends State<HomeScreen> {
             icon: Theme.of(context).brightness == Brightness.dark
                 ? Icon(FontAwesomeIcons.sun)
                 : Icon(FontAwesomeIcons.moon),
-            onPressed: () {
+            onPressed: () async{
+
               _isThemeSwitch = _isThemeSwitch
                   ? false
                   : true;
@@ -161,3 +162,5 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
+
+

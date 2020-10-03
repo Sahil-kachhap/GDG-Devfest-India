@@ -1,4 +1,3 @@
-import 'package:event_app/Constant_info/Constants.dart';
 import 'package:flutter/material.dart';
 
 class Themes {
@@ -21,9 +20,6 @@ class Themes {
   );
 
   static final ThemeData DarkTheme = ThemeData(
-   // primaryColor: Colors.black,
-   // disabledColor: Colors.grey,
-   // cardColor: Colors.black,
     canvasColor: Colors.black,
     brightness: Brightness.dark,
       buttonTheme: ButtonThemeData(colorScheme: ColorScheme.dark()),
