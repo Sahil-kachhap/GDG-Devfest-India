@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'package:event_app/Models/Speaker_Model.dart';
 import 'package:event_app/UI_Components/Custom_Speaker_Card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
@@ -27,9 +26,11 @@ class _CloudSpeakersState extends State<CloudSpeakers> {
                   SpeakerTopic: SpeakerData['cloud'][index]
                   ['speaker_desc'],
                   SpeakerDesc: SpeakerData['cloud'][index]['speaker_desc'],
-                  session_time: SpeakerData['cloud'][index]
+                  session_topic: SpeakerData['cloud'][index]
                   ['speaker_session'],
                   image: SpeakerData['cloud'][index]['speaker_image'],
+                  linkedinURL: SpeakerData['cloud'][index]['linkedin_url'],
+                  twitterURL: SpeakerData['cloud'][index]['twitter_url'],
                 );
               },
             );

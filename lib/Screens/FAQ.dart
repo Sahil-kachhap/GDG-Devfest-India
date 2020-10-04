@@ -31,7 +31,7 @@ class _FAQScreenState extends State<FAQScreen> {
           ),
           actions: <Widget>[
             IconButton(
-              icon: _isThemeSwitch
+              icon:  Theme.of(context).brightness == Brightness.dark
                   ? Icon(FontAwesomeIcons.sun)
                   : Icon(FontAwesomeIcons.moon),
               onPressed: () {

@@ -11,7 +11,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-//import 'package:share/share.dart';
+import 'package:share/share.dart';
 
 class SpeakerScreen extends StatefulWidget {
   @override
@@ -20,7 +20,7 @@ class SpeakerScreen extends StatefulWidget {
 
 class _SpeakerScreenState extends State<SpeakerScreen>
     with SingleTickerProviderStateMixin {
-  bool _isThemeSwitch=false;
+  bool _isThemeSwitch = false;
   TabController controller;
   @override
   void initState() {
@@ -43,67 +43,70 @@ class _SpeakerScreenState extends State<SpeakerScreen>
       appBar: AppBar(
         bottom: TabBar(
             indicatorColor: Tools.multiColors[Random().nextInt(4)],
-            isScrollable: true, controller: controller, tabs: [
-          Tab(
-            child: Text(
-              'Mobile',
-              style: TextStyle(
-                fontFamily: 'OpenSans',
-                letterSpacing: 1.0,
-                color: Theme.of(context).brightness == Brightness.dark
-                    ? Colors.white
-                    : Colors.black,
+            isScrollable: true,
+            controller: controller,
+            tabs: [
+              Tab(
+                child: Text(
+                  'Mobile',
+                  style: TextStyle(
+                    fontFamily: 'OpenSans',
+                    letterSpacing: 1.0,
+                    color: Theme.of(context).brightness == Brightness.dark
+                        ? Colors.white
+                        : Colors.black,
+                  ),
+                ),
               ),
-            ),
-          ),
-          Tab(
-            child: Text(
-              'Cloud',
-              style: TextStyle(
-                fontFamily: 'OpenSans',
-                letterSpacing: 1.0,
-                color: Theme.of(context).brightness == Brightness.dark
-                    ? Colors.white
-                    : Colors.black,
+              Tab(
+                child: Text(
+                  'Cloud',
+                  style: TextStyle(
+                    fontFamily: 'OpenSans',
+                    letterSpacing: 1.0,
+                    color: Theme.of(context).brightness == Brightness.dark
+                        ? Colors.white
+                        : Colors.black,
+                  ),
+                ),
               ),
-            ),
-          ),
-          Tab(
-            child: Text(
-              'Web',
-              style: TextStyle(
-                fontFamily: 'OpenSans',
-                letterSpacing: 1.0,
-                color: Theme.of(context).brightness == Brightness.dark? Colors.white
-                    : Colors.black,
+              Tab(
+                child: Text(
+                  'Web',
+                  style: TextStyle(
+                    fontFamily: 'OpenSans',
+                    letterSpacing: 1.0,
+                    color: Theme.of(context).brightness == Brightness.dark
+                        ? Colors.white
+                        : Colors.black,
+                  ),
+                ),
               ),
-            ),
-          ),
-          Tab(
-            child: Text(
-              'Machine Learning',
-              style: TextStyle(
-                fontFamily: 'OpenSans',
-                letterSpacing: 1.0,
-                color: Theme.of(context).brightness == Brightness.dark
-                    ? Colors.white
-                    : Colors.black,
+              Tab(
+                child: Text(
+                  'Machine Learning',
+                  style: TextStyle(
+                    fontFamily: 'OpenSans',
+                    letterSpacing: 1.0,
+                    color: Theme.of(context).brightness == Brightness.dark
+                        ? Colors.white
+                        : Colors.black,
+                  ),
+                ),
               ),
-            ),
-          ),
-          Tab(
-            child: Text(
-              'Design [UI/UX]',
-              style: TextStyle(
-                fontFamily: 'OpenSans',
-                letterSpacing: 1.0,
-                color: Theme.of(context).brightness==Brightness.dark
-                    ? Colors.white
-                    : Colors.black,
+              Tab(
+                child: Text(
+                  'Design [UI/UX]',
+                  style: TextStyle(
+                    fontFamily: 'OpenSans',
+                    letterSpacing: 1.0,
+                    color: Theme.of(context).brightness == Brightness.dark
+                        ? Colors.white
+                        : Colors.black,
+                  ),
+                ),
               ),
-            ),
-          ),
-        ]),
+            ]),
         title: Text(
           'Speakers',
           style: TextStyle(
@@ -116,7 +119,7 @@ class _SpeakerScreenState extends State<SpeakerScreen>
         ),
         actions: <Widget>[
           IconButton(
-            icon: _isThemeSwitch
+            icon: Theme.of(context).brightness == Brightness.dark
                 ? Icon(FontAwesomeIcons.sun)
                 : Icon(FontAwesomeIcons.moon),
             onPressed: () {
@@ -137,8 +140,10 @@ class _SpeakerScreenState extends State<SpeakerScreen>
           ),
           IconButton(
               icon: Icon(Icons.share),
-              onPressed: (){}/* => Share.share(
-                  "Download the new GDG DevFest India App and share with your tech friends.\nPlayStore -  ")*/)
+              onPressed:
+                  () => Share.share(
+                  "Download the new GDG DevFest India App and share with your tech friends.\nPlayStore -  ")
+              )
         ],
       ),
       body: TabBarView(
@@ -148,7 +153,7 @@ class _SpeakerScreenState extends State<SpeakerScreen>
           CloudSpeakers(),
           WebSpeakers(),
           MLSpeakers(),
-          Center(child: Text('Design Speakers will be displayed here')),
+          Center(child: Text('Flutter speakers'),)
         ],
       ),
     );

@@ -1,8 +1,6 @@
 import 'dart:convert';
-import 'package:event_app/Models/Speaker_Model.dart';
 import 'package:event_app/UI_Components/Custom_Speaker_Card.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show rootBundle;
 
 class WebSpeakers extends StatefulWidget {
   @override
@@ -27,9 +25,11 @@ class _WebSpeakersState extends State<WebSpeakers> {
                   SpeakerTopic: SpeakerData['web'][index]
                   ['speaker_desc'],
                   SpeakerDesc: SpeakerData['web'][index]['speaker_desc'],
-                  session_time: SpeakerData['web'][index]
+                  session_topic: SpeakerData['web'][index]
                   ['speaker_session'],
                   image: SpeakerData['web'][index]['speaker_image'],
+                  linkedinURL: SpeakerData['web'][index]['linkedin_url'],
+                  twitterURL: SpeakerData['web'][index]['twitter_url'],
                 );
               },
             );

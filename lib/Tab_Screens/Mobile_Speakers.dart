@@ -1,8 +1,6 @@
 import 'dart:convert';
-import 'package:event_app/Models/Speaker_Model.dart';
 import 'package:event_app/UI_Components/Custom_Speaker_Card.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show rootBundle;
 
 class MobileSpeakers extends StatefulWidget {
   final String mobileTrack;
@@ -13,6 +11,9 @@ class MobileSpeakers extends StatefulWidget {
 }
 
 class _MobileSpeakersState extends State<MobileSpeakers> {
+
+
+
   @override
   Widget build(BuildContext context) {
     return FutureBuilder(
@@ -30,9 +31,11 @@ class _MobileSpeakersState extends State<MobileSpeakers> {
                     SpeakerTopic: SpeakerData['mobile'][index]
                         ['speaker_desc'],
                     SpeakerDesc: SpeakerData['mobile'][index]['speaker_desc'],
-                    session_time: SpeakerData['mobile'][index]
+                    session_topic: SpeakerData['mobile'][index]
                         ['speaker_session'],
                     image: SpeakerData['mobile'][index]['speaker_image'],
+                    linkedinURL: SpeakerData['mobile'][index]['linkedin_url'],
+                    twitterURL: SpeakerData['mobile'][index]['twitter_url'],
                   );
               },
             );

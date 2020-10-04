@@ -16,7 +16,7 @@ class AgendaContent extends StatelessWidget {
         SpeakerName: title,
         SpeakerTopic: description,
         SpeakerDesc: sessionDesc,
-        session_time: sessionTime,
+        session_topic: sessionTime,
     );
   }
 }

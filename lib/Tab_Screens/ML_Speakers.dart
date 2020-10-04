@@ -28,8 +28,10 @@ class _MLSpeakersState extends State<MLSpeakers> {
                     SpeakerTopic: SpeakerData['ML'][index]
                     ['speaker_desc'],
                     SpeakerDesc: SpeakerData['ML'][index]['speaker_desc'],
-                    session_time: SpeakerData['ML'][index]['speaker_session'],
+                    session_topic: SpeakerData['ML'][index]['speaker_session'],
                     image: SpeakerData['ML'][index]['speaker_image'],
+                    linkedinURL: SpeakerData['ML'][index]['linkedin_url'],
+                    twitterURL: SpeakerData['ML'][index]['twitter_url'],
                   );
                 });
           }else{

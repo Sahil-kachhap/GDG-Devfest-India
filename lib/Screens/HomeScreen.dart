@@ -11,6 +11,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:share/share.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 
@@ -81,8 +82,8 @@ class _HomeScreenState extends State<HomeScreen> {
           IconButton(
               icon: Icon(Icons.share),
               onPressed:
-                  () {} /* => Share.share(
-                  "Download the new GDG DevFest India App and share with your tech friends.\nPlayStore -  ")*/
+                  ()  => Share.share(
+                  "Download the new GDG DevFest India App and share with your tech friends.\nPlayStore -  ")
               )
         ],
       ),
@@ -125,7 +126,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   color: Tools
                       .multiColors[Random().nextInt(4)], //Color(0xff3e5df5),
                   onPressed: () {
-                    // _launchURL(Devfest.Devfest_RegisterPage_Url);
+                     _launchURL(Devfest.Devfest_RegisterPage_Url);
                   }),
               Padding(
                 padding: const EdgeInsets.only(top: 8.0),

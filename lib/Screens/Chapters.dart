@@ -86,7 +86,7 @@ class _ChapterScreenState extends State<ChapterScreen>
           ),
           actions: <Widget>[
             IconButton(
-              icon: _isThemeSwitch
+              icon:  Theme.of(context).brightness == Brightness.dark
                   ? Icon(FontAwesomeIcons.sun)
                   : Icon(FontAwesomeIcons.moon),
               onPressed: () {

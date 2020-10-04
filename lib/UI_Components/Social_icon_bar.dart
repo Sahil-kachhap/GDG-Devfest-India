@@ -49,7 +49,7 @@ class Social_Icon_Horizontal_Bar extends StatelessWidget {
           width: 10,
         ),
         IconButton(
-          icon: Icon(FontAwesomeIcons.chrome),
+          icon: Icon(Icons.open_in_new),
           onPressed: () {
             _launchURL(Devfest.Devfest_website_Url);
           },

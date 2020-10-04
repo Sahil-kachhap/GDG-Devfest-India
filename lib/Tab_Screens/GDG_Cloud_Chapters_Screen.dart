@@ -30,7 +30,7 @@ class GDGCloudChapterCards extends StatelessWidget {
                     child: Stack(
                       fit: StackFit.expand,
                       children: <Widget>[
-                 /*TODO: Uncomment the below code
+                        /*TODO: Uncomment the below code
                  CachedNetworkImage(
                     imageUrl: mydata[1][index]['image_link'],
                       placeholder: (context,url)=>Image(image: AssetImage('Assets/Images/gdgc_jaipur.png')),
@@ -39,9 +39,8 @@ class GDGCloudChapterCards extends StatelessWidget {
                       color: Colors.black54,
                       colorBlendMode: BlendMode.darken,
                     ),*/
-                        Image(
-                          image: AssetImage(
-                              mydata[1][index]['image']),
+                        Image.network(
+                          mydata[1][index]['image_link'],
                           fit: BoxFit.cover,
                           color: Colors.black54,
                           colorBlendMode: BlendMode.darken,

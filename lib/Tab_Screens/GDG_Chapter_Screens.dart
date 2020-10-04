@@ -20,7 +20,7 @@ class GDGChapterCards extends StatelessWidget {
     }
 
     return ListView.builder(
-        itemCount: 13,
+        itemCount: 39,
         itemBuilder: (context, index) {
           return Padding(
             padding: const EdgeInsets.all(8.0),
@@ -37,7 +37,7 @@ class GDGChapterCards extends StatelessWidget {
                     child: Stack(
                       fit: StackFit.expand,
                       children: <Widget>[
-                       /*TODO: Uncomment the following lines
+                        /*TODO: Uncomment the following lines
                         CachedNetworkImage(
                           imageUrl: mydata[0][index]['image_link'],
                           placeholder: (context,url)=>Image(image: AssetImage('Assets/Images/gdg_bhilai.png')),
@@ -46,12 +46,18 @@ class GDGChapterCards extends StatelessWidget {
                           color: Colors.black54,
                           colorBlendMode: BlendMode.darken,
                         ),*/
-                         Image(
+                        Image.network(
+                          mydata[0][index]['image_link'],
+                          fit: BoxFit.cover,
+                          color: Colors.black54,
+                          colorBlendMode: BlendMode.darken,
+                        ),
+                        /*  Image(
                           image: AssetImage(mydata[0][index]['image']),
                           fit: BoxFit.cover,
                           color: Colors.black54,
                           colorBlendMode: BlendMode.darken,
-                        ),//TODO: Remove or comment out this image widget if cached_network_image works fine.
+                        ),*/ //TODO: Remove or comment out this image widget if cached_network_image works fine.
                         Padding(
                           padding:
                               const EdgeInsets.only(left: 12.0, bottom: 25),
@@ -71,11 +77,11 @@ class GDGChapterCards extends StatelessWidget {
                                 children: <Widget>[
                                   IconButton(
                                       icon: Icon(
-                                        FontAwesomeIcons.facebookF,
+                                        Icons.open_in_browser,
                                         color: Colors.white,
                                       ),
                                       onPressed: () {
-                                        _launchURL(mydata[0][index]['fb']);
+                                        _launchURL(mydata[0][index]['gdg']);
                                       }),
                                   IconButton(
                                       icon: Icon(
@@ -92,18 +98,14 @@ class GDGChapterCards extends StatelessWidget {
                                       onPressed: () {
                                         _launchURL(mydata[0][index]['twitter']);
                                       }),
-                                  /*IconButton(
+                                  IconButton(
                                       icon: Icon(
                                         FontAwesomeIcons.meetup,
                                         color: Colors.white,
                                       ),
-                                      onPressed: () {}),*/
-                                  IconButton(
-                                      icon: Icon(
-                                        FontAwesomeIcons.instagram,
-                                        color: Colors.white,
-                                      ),
-                                      onPressed: () {}),
+                                      onPressed: () {
+                                        _launchURL(mydata[0][index]['meetup']);
+                                      }),
                                 ],
                               )
                             ],

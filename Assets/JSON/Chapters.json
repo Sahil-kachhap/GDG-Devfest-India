@@ -7,7 +7,8 @@
     "fb": "https://www.facebook.com/GDGAhmedabad/",
     "linkedin": "https://www.linkedin.com/company/gdg-ahmedabad/",
     "twitter": "https://twitter.com/GDGAhmedabad",
-    "insta": "https://www.instagram.com/GDGCloudAhm/"
+      "gdg": "https://gdg.community.dev/gdg-ahmedabad/",
+      "meetup": "https://www.meetup.com/GDG-Ahmedabad/"
     },
     {
     "name": "GDG Bangalore",
@@ -16,16 +17,18 @@
      "fb": "https://www.facebook.com/GDG-Bangalore-101204221589426",
       "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
       "twitter": "https://twitter.com/gdgblr",
-      "insta": ""
+     "gdg": "https://gdg.community.dev/gdg-bangalore/",
+      "meetup": "https://www.meetup.com/GDGBangalore/"
     },
     {
     "name": "GDG Baroda",
       "image_link": "https://gdgbaroda.com/cover-image-team.jpg",
-    "image": "Assets/Images/gdg_img.jpeg",
+      "image": "Assets/Images/gdg_baroda.jpeg",
       "fb": "https://facebook.com/gdgbaroda",
       "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
       "twitter": "https://twitter.com/gdgbaroda",
-      "insta": ""
+      "meetup": "https://www.meetup.com/gdgbaroda/",
+      "gdg": "https://gdg.community.dev/gdg-baroda/"
     },
     {
     "name": "GDG Bhilai",
@@ -34,52 +37,58 @@
       "fb": "https://fb.me/gdgbhilai",
       "linkedin":"",
       "twitter": "https://twitter.com/GDG_Bhilai",
-      "insta": ""
+      "meetup": "https://www.meetup.com/GDG-Bhilai/",
+      "gdg": "https://gdg.community.dev/gdg-bhilai/"
     },
     {
     "name": "GDG Bhopal",
       "image_link": "https://secure.meetupstatic.com/photos/event/7/d/0/e/highres_491312014.jpeg",
-    "image": "Assets/Images/ranchi.jpeg",
+      "image": "Assets/Images/gdg_bhopal.jpeg",
       "fb": "https://facebook.com/GDGBhopal",
       "linkedin":"https://www.linkedin.com/company/gdgbhopal",
       "twitter": "https://twitter.com/gdg_bhopal",
-      "insta": ""
+      "gdg": "https://gdg.community.dev/gdg-bhopal/",
+      "meetup": "https://www.meetup.com/gdg_bhopal/"
     },
     {
     "name": "GDG Bhubaneswar",
       "image_link": "https://secure.meetupstatic.com/photos/event/2/b/7/4/highres_464411124.jpeg",
     "image": "Assets/Images/gdg_bbsr.jpg",
       "fb": "http://facebook.com/GDGBBSR/",
-      "linkedin":"",
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
       "twitter": "https://twitter.com/gdgbbsr",
-      "insta": "https://www.instagram.com/gdgbbsr"
+      "meetup": "https://www.meetup.com/GDG-Bhubaneswar/",
+      "gdg": "https://gdg.community.dev/gdg-bhubaneswar/"
     },
     {
     "name": "GDG Blrdroid",
       "image_link": "https://secure.meetupstatic.com/photos/event/d/b/9/9/highres_473936217.jpeg",
-    "image": "Assets/Images/gdg_pune.jpeg",
+      "image": "Assets/Images/gdg_blrdroid.jpeg",
       "fb": "",
       "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
       "twitter": "https://twitter.com/gdg",
-      "insta": ""
+      "meetup": "https://www.meetup.com/blrdroid/",
+      "gdg": "https://gdg.community.dev/gdg-blrdroid/"
     },
     {
     "name": "GDG Chandigarh",
       "image_link": "https://secure.meetupstatic.com/photos/event/5/e/7/a/highres_485304186.jpeg",
-    "image": "Assets/Images/gdg_patna.png",
+      "image": "Assets/Images/gdg_chandigarh.jpeg",
       "fb": "https://www.facebook.com/gdgchd/",
       "linkedin":"https://www.linkedin.com/company/gdg-chandigarh",
       "twitter": "https://twitter.com/ChandigarhGdg",
-      "insta": "https://www.instagram.com/gdgchandigarh"
+      "gdg": "https://gdg.community.dev/gdg-chandigarh/",
+      "meetup": "https://www.meetup.com/GDG-Chandigarh/"
     },
     {
     "name": "GDG Chennai",
       "image_link": "https://secure.meetupstatic.com/photos/event/9/7/b/2/highres_471158834.jpeg",
-    "image": "Assets/Images/gdg_baroda.jpeg",
+      "image": "Assets/Images/gdg_chennai.jpeg",
       "fb": "https://www.facebook.com/GDGChennai/",
       "linkedin":"https://www.linkedin.com/company/gdg-chennai/",
       "twitter": "https://twitter.com/gdgchennai",
-      "insta": "https://www.instagram.com/gdgchennai"
+      "gdg": "https://gdg.community.dev/gdg-chennai/",
+      "meetup": "https://www.meetup.com/GDGChennai/"
     },
     {
     "name": "GDG Cochin",
@@ -87,220 +96,297 @@
     "image": "Assets/Images/gdg_bhilai.png",
       "fb": "",
       "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
-      "twitter": "https://twitter.com/gdg"
+      "twitter": "https://twitter.com/gdg",
+      "gdg": "https://gdg.community.dev/gdg-cochin/",
+      "meetup": "https://www.meetup.com/GDGCochin/"
     },
     {
     "name": "GDG Coimbatore",
       "image_link": "https://secure.meetupstatic.com/photos/event/3/b/d/7/highres_485655319.jpeg",
-    "image": "Assets/Images/gdg_bhopal.jpeg",
+      "image": "Assets/Images/gdg_coimbatore.jpeg",
       "fb": "https://facebook.com/gdgcoimbatore",
       "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
       "twitter": "https://twitter.com/gdgcoimbatore",
-      "insta": "https://www.instagram.com/Gdgcoimbatore"
+      "gdg": "https://gdg.community.dev/gdg-coimbatore/",
+      "meetup": "https://www.meetup.com/GDGCoimbatore/"
     },
     {
     "name": "GDG Gandhinagar",
       "image_link": "https://secure.meetupstatic.com/photos/event/d/5/2/0/600_479094560.jpeg",
-    "image": "Assets/Images/gdg_gwalior.jpg",
+      "image": "Assets/Images/gdg_gandhinagar.jpeg",
       "fb": "",
       "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
-      "twitter": "https://twitter.com/gdg"
+      "twitter": "https://twitter.com/gdg",
+      "gdg": "https://gdg.community.dev/gdg-gandhinagar/",
+      "meetup": "https://www.meetup.com/GDG-Gandhinagar/"
     },
     {
     "name": "GDG Goa",
       "image_link": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fv1QxUHZHO7U%2Fmaxresdefault.jpg&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dv1QxUHZHO7U&tbnid=J1LfsXuU6QxreM&vet=12ahUKEwi5uKaC_JbsAhUCMysKHRZHA-YQMygBegUIARCNAQ..i&docid=9pqi7M8vC9CRiM&w=1280&h=720&q=gdg%20goa%5C&ved=2ahUKEwi5uKaC_JbsAhUCMysKHRZHA-YQMygBegUIARCNAQ",
-    "image": "Assets/Images/gdg_chandigarh.jpeg",
+      "image": "Assets/Images/gdg_goa.jpg",
       "fb": "",
       "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
-      "twitter": "https://twitter.com/gdg"
-    },
-    {
-    "name": "GDG Chennai",
-    "image": "Assets/Images/gdg_chennai.jpeg",
-      "fb": "",
-      "linkedin":"",
-      "twitter": ""
+      "twitter": "https://twitter.com/gdg",
+      "gdg": "https://gdg.community.dev/gdg-goa/",
+      "meetup": "https://www.meetup.com/GoogleGoa/"
     },
     {
     "name": "GDG Gwalior",
-     "image_link": "https://pbs.twimg.com/profile_images/1301163394376986624/hbVjgq2E.jpg",
-    "image": "Assets/Images/gdg_cochin.jpeg",
+      "image_link": "https://pbs.twimg.com/profile_images/1301163394376986624/hbVjgq2E.jpg",
+      "image": "Assets/Images/gdg_gwalior.jpg",
       "fb": "https://www.facebook.com/GDGChapterGwalior/",
       "linkedin":"https://www.linkedin.com/company/gdggwalior",
-      "twitter": "https://twitter.com/GdgGwalior"
+      "twitter": "https://twitter.com/GdgGwalior",
+      "gdg": "https://gdg.community.dev/gdg-gwalior/",
+      "meetup": "https://www.meetup.com/gdg-gwalior/"
     },
     {
     "name": "GDG Hubli",
-      "image_link": "",
-    "image": "Assets/Images/gdg_coimbatore.jpeg",
+      "image_link": "https://secure.meetupstatic.com/photos/event/e/a/0/e/highres_481739918.jpeg",
+      "image": "Assets/Images/gdg_hubli.jpeg",
       "fb": "",
-      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
-      "twitter": "https://twitter.com/gdg"
+      "linkedin":"https://secure.meetupstatic.com/photos/event/e/a/0/e/highres_481739918.jpeg",
+      "twitter": "https://twitter.com/gdg",
+      "meetup": "https://www.meetup.com/GDGHubli/",
+      "gdg": "https://gdg.community.dev/gdg-hubli/"
     },
     {
     "name": "GDG Hyderabad",
-      "image_link": "",
-    "image": "Assets/Images/gdg_gandhinagar.jpeg",
+      "image_link": "https://secure.meetupstatic.com/photos/event/2/a/e/0/highres_465910976.jpeg",
+      "image": "Assets/Images/gdg_hbd.jpg",
       "fb": "https://www.facebook.com/gdghyd/",
       "linkedin":"https://www.linkedin.com/company/13401596/",
-      "twitter": "https://twitter.com/gdg_hyd"
+      "twitter": "https://twitter.com/gdg_hyd",
+      "gdg": "https://gdg.community.dev/gdg-hyderabad/",
+      "meetup": "https://www.meetup.com/GDGHyderabad/"
     },
     {
     "name": "GDG Indore",
-      "image_link": "",
-    "image": "Assets/Images/gdg_goa.jpg",
+      "image_link": "https://pbs.twimg.com/media/DGkKYqCVYAAxcLL.jpg",
+      "image": "Assets/Images/gdg_indore.jpeg",
       "fb": "https://www.facebook.com/gdgindore",
       "linkedin":"https://www.linkedin.com/company/gdg-indore",
-      "twitter": "https://twitter.com/GDG_Indore"
+      "twitter": "https://twitter.com/GDG_Indore",
+      "gdg": "https://gdg.community.dev/gdg-indore/",
+      "meetup": "https://www.meetup.com/GDGIndore/"
     },
     {
     "name": "GDG Jaipur",
-      "image_link": "",
-    "image": "Assets/Images/gdg_hubli.jpeg",
+      "image_link": "https://secure.meetupstatic.com/photos/event/2/f/3/f/highres_490092095.jpeg",
+      "image": "Assets/Images/gdg_jaipur.jpg",
       "fb": "",
       "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
-      "twitter": "https://twitter.com/gdgjaipur"
+      "twitter": "https://twitter.com/gdgjaipur",
+      "gdg": "https://gdg.community.dev/gdg-jaipur/",
+      "meetup": "https://www.meetup.com/GDG-Jaipur/"
     },
     {
     "name": "GDG Jalandhar",
-      "image_link": "",
-    "image": "Assets/Images/gdg_hbd.jpg",
+      "image_link": "https://miro.medium.com/max/10368/1*UopzzgOITEiMj32UIKIEAw.jpeg",
+      "image": "Assets/Images/gdg_jalandhar.jpeg",
       "fb": "https://www.facebook.com/GDGJalandhar",
       "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
-      "twitter": "https://twitter.com/gdgjalandhar"
+      "twitter": "https://twitter.com/gdgjalandhar",
+      "gdg": "https://gdg.community.dev/gdg-jalandhar/",
+      "meetup": "https://www.meetup.com/GDG-Jalandhar/"
     },
     {
     "name": "GDG Jodhpur",
-    "image": "Assets/Images/gdg_indore.jpeg",
-      "fb": "",
-      "linkedin":"",
-      "twitter": ""
-    },
-    {
-    "name": "GDG Jaipur",
-    "image": "Assets/Images/gdg_jaipur.jpg",
+      "iamge_link": "https://pbs.twimg.com/media/EEcRyp4UYAAGUT9.jpg",
+      "image": "Assets/Images/gdg_jodhpur.jpeg",
       "fb": "",
       "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
-      "twitter": "https://twitter.com/gdg"
+      "twitter": "https://twitter.com/gdg",
+      "gdg": "https://gdg.community.dev/gdg-jodhpur/",
+      "meetup": "https://www.meetup.com/GDGJodhpur/"
     },
     {
-    "name": "GDG Jalandhar",
-    "image": "Assets/Images/gdg_jalandhar.jpeg",
-      "fb": "",
-      "linkedin":"",
-      "twitter": ""
+    "name": "GDG Kolkata",
+      "image_link": "https://scontent.fdel2-1.fna.fbcdn.net/v/t1.0-9/70881556_3000073476734254_8431639367532937216_o.jpg?_nc_cat=102&_nc_sid=6e5ad9&_nc_ohc=Jk5Z8s0M7EQAX-mP7yI&_nc_ht=scontent.fdel2-1.fna&oh=c9d25383a9cb676758b37979ab2bf450&oe=5F9E8494",
+      "fb": "https://www.facebook.com/GDGKolkata/",
+      "linkedin":"https://in.linkedin.com/company/gdgkolkata",
+      "twitter": "https://twitter.com/gdgkolkata",
+      "gdg": "https://gdg.community.dev/gdg-kolkata/",
+      "meetup": "https://www.meetup.com/GDG-Kolkata/"
     },
     {
-    "name": "GDG Jodhpur",
-    "image": "Assets/Images/gdg_jodhpur.jpeg",
-      "fb": "",
-      "linkedin":"",
-      "twitter": ""
-    },
-    {
-    "name": "GDG KOZHIKODE",
-    "image": "Assets/Images/gdg_kozhikode.jpeg",
-      "fb": "",
-      "linkedin":"",
-      "twitter": ""
+    "name": "GDG Kozhikode",
+      "image_link": "https://scontent.fdel2-1.fna.fbcdn.net/v/t31.0-8/26232854_893895114125706_9221577485176566765_o.jpg?_nc_cat=106&_nc_sid=dd9801&_nc_ohc=oETiPRwoxjoAX90VuR0&_nc_ht=scontent.fdel2-1.fna&oh=2344ecbd2d912097f6d00ff977212a6e&oe=5FA09118",
+      "image": "Assets/Images/gdg_kozhikode.jpeg",
+      "fb": "https://www.facebook.com/GDGKozhikode",
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+      "twitter": "https://twitter.com/GDGKozhikode",
+      "gdg": "https://gdg.community.dev/gdg-kozhikode/",
+      "meetup": "https://www.meetup.com/GDG-Kozhikode/"
     },
     {
     "name": "GDG MAD",
-    "image": "Assets/Images/gdg_mad.jpeg",
-      "fb": "",
+      "image_link": "https://media-exp1.licdn.com/dms/image/C4E1BAQGf1Sdo4S9ikQ/company-background_10000/0?e=2159024400&v=beta&t=nV1kmZZoVHp02PMc9zo3BhUPO6GgAr4mkjQ_3_lq7qk",
+      "fb": "https://www.facebook.com/gdgmadmeetup",
       "linkedin":"",
-      "twitter": ""
-    },
-    {
-    "name": "GDG BLRDROID",
-    "image": "Assets/Images/gdg_blrdroid.jpeg",
-      "fb": "",
-      "linkedin":"",
-      "twitter": ""
+      "twitter": "https://twitter.com/gdgmad",
+      "gdg": "https://gdg.community.dev/gdg-mad/",
+      "meetup": "https://www.meetup.com/gdg-mad/"
     },
     {
     "name": "GDG Madurai",
-    "image": "Assets/Images/gdg_madurai.jpeg",
-      "fb": "",
-      "linkedin":"",
-      "twitter": ""
+      "image_link": "https://geeksup.in/blog/wp-content/uploads/2020/03/adsa-600x330.jpg",
+      "image": "Assets/Images/gdg_madurai.jpeg",
+      "fb": "https://www.facebook.com/gdgmaduraipage",
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+      "twitter": "https://twitter.com/gdgmadurai",
+      "gdg": "https://gdg.community.dev/gdg-madurai/",
+      "meetup": "https://www.meetup.com/GDG-Madurai/"
     },
     {
-    "name": "GDG Mysore",
-    "image": "Assets/Images/gdg_jaipur.jpg",
+    "name": "GDG Mysuru",
+      "image_link": "data:image/png;base64,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",
+    "image": "Assets/Images/gdg_mad.jpeg",
       "fb": "",
-      "linkedin":"",
-      "twitter": ""
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+      "twitter": "https://twitter.com/gdg",
+      "meetup":"https://www.meetup.com/Google-Developers-group-Mysuru/",
+      "gdg": "https://gdg.community.dev/gdg-mysuru/"
     },
     {
     "name": "GDG Nagpur",
-    "image": "Assets/Images/gdg_nagpur.jpeg",
-      "fb": "",
-      "linkedin":"",
-      "twitter": ""
+      "image_link": "https://secure.meetupstatic.com/photos/event/7/9/b/7/highres_485551159.jpeg",
+      "image": "Assets/Images/gdg_nagpur.jpeg",
+      "fb": "https://www.facebook.com/GDGNagpur.Official/",
+      "linkedin":"https://www.linkedin.com/organization-guest/company/gdgnagpur",
+      "twitter": "https://twitter.com/GDGNagpur_",
+      "gdg": "https://gdg.community.dev/gdg-nagpur/",
+      "meetup": "https://www.meetup.com/GDG-Nagpur/"
     },
     {
     "name": "GDG Nashik",
-    "image": "Assets/Images/gdg_nashik.jpeg",
-      "fb": "",
+      "image_link": "https://secure.meetupstatic.com/photos/event/d/f/c/0/highres_479517280.jpeg",
+      "image": "Assets/Images/gdg_nashik.jpeg",
+      "fb": "https://www.facebook.com/GDGNashik/",
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+      "twitter": "https://twitter.com/GDGNashik",
+      "gdg": "https://gdg.community.dev/gdg-nashik/",
+      "meetup": "https://www.meetup.com/GDG-Nashik/"
+    },
+    {
+    "name": "GDG New Delhi",
+      "image_link": "https://miro.medium.com/max/1200/1*yV96oMiSf2-e4z-Rxcc_ow.jpeg",
+    "image": "Assets/Images/gdg_jaipur.jpg",
+      "fb": "https://commudle.com/communities/gdg-new-delhi",
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+      "twitter": "https://twitter.com/gdg_nd",
+      "gdg": "https://gdg.community.dev/gdg-new-delhi/",
+      "meetup": "https://www.meetup.com/GDGNewDelhi/"
+    },
+    {
+    "name": "GDG Patna",
+      "image_link": "data:image/png;base64,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",
+      "image": "Assets/Images/gdg_patna.png",
+      "fb": "https://facebook.com/gdgpatna",
       "linkedin":"",
-      "twitter": ""
+      "twitter": "https://twitter.com/gdgpatna",
+      "gdg": "https://gdg.community.dev/gdg-patna/",
+      "meetup": "https://www.meetup.com/GDG-Patna/"
+    },
+    {
+    "name": "GDG Pune",
+      "image_link": "https://content.techgig.com/thumb/msid-71848808,width-860,resizemode-4/Pune-developers-celebrate-the-spirit-of-coding-at-GDG-Pune.jpg?202200",
+      "image": "Assets/Images/gdg_pune.jpeg",
+      "fb": "https://www.facebook.com/gdgpune/",
+      "linkedin":"https://www.linkedin.com/company/gdgpune",
+      "twitter": "https://twitter.com/gdgpune",
+      "gdg": "https://gdg.community.dev/gdg-pune/",
+      "meetup": "https://www.meetup.com/Pune-GDG/"
     },
     {
     "name": "GDG Rajkot",
+      "image_link": "https://www.darshan.ac.in//Upload/DIET/Event/CE/Final_2_12042019_072332AM.jpg",
     "image": "Assets/Images/gdg_rajkot.jpeg",
-      "fb": "",
-      "linkedin":"",
-      "twitter": ""
+      "fb": "https://www.facebook.com/GDGRajkot",
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+      "twitter": "https://twitter.com/GDGRajkot",
+      "gdg": "https://gdg.community.dev/gdg-rajkot/",
+      "meetup": "https://www.meetup.com/GDG-Rajkot/"
+    },
+    {
+    "name": "GDG Ranchi",
+      "image_link": "https://miro.medium.com/max/12000/1*bs9WHqsl8OLG0Zo-pgCSzQ.jpeg",
+      "image": "Assets/Images/ranchi.jpeg",
+      "fb": "https://facebook.com/gdgrnc/",
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+      "twitter": "https://twitter.com/gdgrnc",
+      "meetup": "https://www.meetup.com/GDG-Ranchi/",
+      "gdg": "https://gdg.community.dev/gdg-ranchi/"
     },
     {
     "name": "GDG Salem",
-    "image": "Assets/Images/gdg_salem.jpeg",
-      "fb": "",
-      "linkedin":"",
-      "twitter": ""
+      "image_link": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_center,h_540,q_auto:good,w_720/v1/gcs/platform-data-goog/chapter_photos/GDG%2520Salem%2520Inaguration1.jpeg",
+      "image": "Assets/Images/gdg_salem.jpeg",
+      "fb": "https://www.facebook.com/gdgsalemofficial",
+      "linkedin":"https://www.linkedin.com/in/gdg-salem-india-489a831a4",
+      "twitter": "https://twitter.com/gdg_salem",
+      "gdg": "https://gdg.community.dev/gdg-salem/",
+      "meetup": "https://www.meetup.com/GDG-Salem/"
     },
     {
     "name": "GDG Siliguri",
-    "image": "Assets/Images/gdg_siliguri.jpg",
+      "image_link": "https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/e35/69765296_380688175949778_2329178056909459666_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=106&_nc_ohc=QfiVwDQiJCcAX8__uIF&_nc_tp=18&oh=c3c40d1f06acccf52a6dbc0f28dafeed&oe=5FA40D4A",
+      "image": "Assets/Images/gdg_siliguri.jpg",
       "fb": "",
-      "linkedin":"",
-      "twitter": ""
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+      "twitter": "https://twitter.com/gdg",
+      "gdg": "https://gdg.community.dev/gdg-siliguri/",
+      "meetup": "https://www.meetup.com/GDG-Siliguri/"
     },
     {
     "name": "GDG Srinagar",
-    "image": "Assets/Images/gdg_srinagar.jpeg",
+      "image_link": "https://secure.meetupstatic.com/photos/event/d/8/e/e/highres_480955534.jpeg",
+      "image": "Assets/Images/gdg_srinagar.jpeg",
       "fb": "",
-      "linkedin":"",
-      "twitter": ""
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+      "twitter": "https://twitter.com/gdg",
+      "gdg": "https://gdg.community.dev/gdg-srinagar/",
+      "meetup": "https://www.meetup.com/GDG-Srinagar/"
     },
     {
     "name": "GDG Surat",
-    "image": "Assets/Images/gdg_surat.jpeg",
-      "fb": "",
+      "image_link": "https://secure.meetupstatic.com/photos/event/9/2/6/9/highres_485557481.jpeg",
+      "image": "Assets/Images/gdg_surat.jpeg",
+      "fb": "https://www.facebook.com/gdgsurat",
       "linkedin":"",
-      "twitter": ""
+      "twitter": "https://twitter.com/gdg_surat",
+      "gdg": "https://gdg.community.dev/gdg-surat/",
+      "meetup": "https://www.meetup.com/GDG_Surat/"
     },
     {
-    "name": "GDG Trivantapuram",
-    "image": "Assets/Images/gdg_trivanthpuram.jpeg",
-      "fb": "",
-      "linkedin":"",
-      "twitter": ""
+    "name": "GDG Thiruvananthapuram",
+      "image": "Assets/Images/gdg_trivanthpuram.jpeg",
+      "image_link": "https://secure.meetupstatic.com/photos/event/1/a/6/d/600_485106765.jpeg",
+      "fb": "https://www.facebook.com/gdgtvpm",
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+      "twitter": "https://twitter.com/gdgtvpm",
+      "gdg": "https://gdg.community.dev/gdg-thiruvananthapuram/",
+      "meetup": "https://www.meetup.com/gdgtvpm/"
     },
     {
     "name": "GDG Udaipur",
-    "image": "Assets/Images/gdg_udaipur.jpeg",
+      "image_link": "https://secure.meetupstatic.com/photos/event/d/c/c/1/highres_485276513.jpeg",
+      "image": "Assets/Images/gdg_udaipur.jpeg",
       "fb": "",
-      "linkedin":"",
-      "twitter": ""
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+      "twitter": "https://twitter.com/gdg",
+      "gdg":"https://gdg.community.dev/gdg-udaipur/",
+      "meetup": "https://www.meetup.com/GDG-Udaipur/"
     },
     {
-    "name": "GDG Vizag",
-    "image": "Assets/Images/gdg_vizag.jpeg",
+      "name": "GDG Vizag",
+      "image_link": "https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/e35/94707562_155701842596205_538722634969666604_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=109&_nc_ohc=fWWW81O-hpMAX8H6CcA&_nc_tp=18&oh=d6e47fa96293b57f0ca3da5b7a4e2228&oe=5FA1E92C",
+      "image": "Assets/Images/gdg_vizag.jpeg",
       "fb": "",
-      "linkedin":"",
-      "twitter": ""
+      "linkedin":"https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+      "twitter": "https://twitter.com/gdg",
+      "meetup": "https://www.meetup.com/GDG-Vizag/",
+      "gdg": "https://gdg.community.dev/gdg-vizag/"
     }
   ],
   [
