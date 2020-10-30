@@ -23,7 +23,8 @@ Devfest India Mobile Application is not an Official App for the GDG Devfest , It
 - Flutter Bloc (For Dynamic Theming)
 
 ## Getting Started 🚀
-- Clone the repo `git clone https://github.com/hiteshgarg123/CORONA-TRACKER`
+- Fork The Repo
+- Clone the repo `git clone https://github.com/Sahil-kachhap/GDG-Devfest-India`
 - Install the dependicies `flutter pub get`
 - Run it `flutter run`
 
