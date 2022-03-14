@@ -119,9 +119,9 @@ class _AgendaPageState extends State<AgendaPage>
       body: TabBarView(
         controller: _AgendaTabscontroller,
         children: <Widget>[
-          Center(child: Text("Session Info will be updated soon.",style: Theme.of(context).textTheme.subtitle.copyWith(fontFamily: 'Opensans',letterSpacing: 1.0),)),
-          Center(child: Text("Session Info will be updated soon.",style: Theme.of(context).textTheme.subtitle.copyWith(fontFamily: 'Opensans',letterSpacing: 1.0))),
-          Center(child: Text("Session Info will be updated soon.",style: Theme.of(context).textTheme.subtitle.copyWith(fontFamily: 'Opensans',letterSpacing: 1.0))),
+          Center(child: Text("Session Info will be updated soon.",style: Theme.of(context).textTheme.subtitle2.copyWith(fontFamily: 'Opensans',letterSpacing: 1.0),)),
+          Center(child: Text("Session Info will be updated soon.",style: Theme.of(context).textTheme.subtitle2.copyWith(fontFamily: 'Opensans',letterSpacing: 1.0))),
+          Center(child: Text("Session Info will be updated soon.",style: Theme.of(context).textTheme.subtitle2.copyWith(fontFamily: 'Opensans',letterSpacing: 1.0))),
           // AgendaBodyWidget(),
          // AgendaBodyWidget(),
          // AgendaBodyWidget(),
