@@ -2,7 +2,6 @@ import 'dart:math';
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:event_app/Constant_info/Constants.dart';
 import 'package:event_app/ThemeBloc/AppTheme.dart';
-import 'package:event_app/ThemeBloc/Bloc.dart';
 import 'package:event_app/ThemeBloc/export.dart';
 import 'package:event_app/UI_Components/CustomCard.dart';
 import 'package:event_app/UI_Components/Social_icon_bar.dart';
@@ -102,7 +101,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   Devfest.WelcomeDesc,
                   style: Theme.of(context)
                       .textTheme
-                      .title
+                      .headline6
                       .copyWith(fontFamily: 'Opensans', letterSpacing: 1.0),
                 ),
               ),
@@ -110,7 +109,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 padding: const EdgeInsets.all(10.0),
                 child: Text(
                   Devfest.Description,
-                  style: Theme.of(context).textTheme.body2.copyWith(
+                  style: Theme.of(context).textTheme.bodyText1.copyWith(
                         letterSpacing: 1.0,
                       ),
                   textAlign: TextAlign.center,

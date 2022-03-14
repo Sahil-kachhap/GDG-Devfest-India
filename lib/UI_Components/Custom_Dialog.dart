@@ -1,7 +1,5 @@
 import 'dart:ui';
-import 'package:event_app/Constant_info/Constants.dart';
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class CustomDialog extends StatelessWidget {
   final String Speaker;
@@ -34,7 +32,7 @@ class CustomDialog extends StatelessWidget {
                       ),
                       Text(
                         Speaker,
-                        style: Theme.of(context).textTheme.title.copyWith(
+                        style: Theme.of(context).textTheme.headline6.copyWith(
                             fontFamily: 'OpenSans', fontWeight: FontWeight.bold),
                       ),
                       SizedBox(

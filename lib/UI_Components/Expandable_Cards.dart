@@ -22,7 +22,7 @@ class _ExpandableCardsState extends State<ExpandableCards> {
             widget.question,
             style: Theme.of(context)
                 .textTheme
-                .subhead
+                .subtitle1
                 .copyWith(fontFamily: 'Opensans',fontWeight: FontWeight.bold,
               letterSpacing: 1.0,),
           ),
@@ -34,7 +34,7 @@ class _ExpandableCardsState extends State<ExpandableCards> {
                 widget.answer,
                 style: Theme.of(context)
                     .textTheme
-                    .body2
+                    .bodyText1
                     .copyWith(fontFamily: 'Opensans',letterSpacing: 1.0),
               ),
             )

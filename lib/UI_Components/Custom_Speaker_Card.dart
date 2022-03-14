@@ -72,7 +72,7 @@ class CustomSpeakerCard extends StatelessWidget {
                       SpeakerName,
                       style: Theme.of(context)
                           .textTheme
-                          .title
+                          .headline6
                           .copyWith(fontFamily: 'Opensans'),
                     ),
                     SizedBox(
@@ -93,7 +93,7 @@ class CustomSpeakerCard extends StatelessWidget {
                   SpeakerDesc,
                   style: Theme.of(context)
                       .textTheme
-                      .subtitle
+                      .subtitle2
                       .copyWith(fontFamily: 'OpenSans'),
                 ),
                 SizedBox(

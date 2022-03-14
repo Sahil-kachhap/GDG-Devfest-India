@@ -1,22 +1,11 @@
-import 'dart:math';
-
 import 'package:event_app/Screens/Agenda%20_Screen.dart';
 import 'package:event_app/Screens/Chapters.dart';
 import 'package:event_app/Screens/FAQ.dart';
 import 'package:event_app/Screens/HomeScreen.dart';
 import 'package:event_app/Screens/Speakers_Screen.dart';
-import 'package:event_app/ThemeBloc/AppTheme.dart';
-import 'package:event_app/ThemeBloc/Bloc.dart';
-import 'package:event_app/ThemeBloc/export.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:shared_preferences/shared_preferences.dart';
-
-import 'Tools.dart';
-//import 'package:share/share.dart';
 
 class CustomScaffold extends StatefulWidget {
   @override
@@ -56,16 +45,16 @@ class _CustomScaffoldState extends State<CustomScaffold> {
             currentIndex: _currentIndex,
             items: [
               BottomNavigationBarItem(
-                  title: Text('Speakers'),
+                  label: 'Speakers',
                   icon: Icon(FontAwesomeIcons.teamspeak)),
               BottomNavigationBarItem(
-                  title: Text('Agenda'), icon: Icon(Icons.event)),
+                  label: 'Agenda', icon: Icon(Icons.event)),
               BottomNavigationBarItem(
-                  title: Text('Home'), icon: Icon(Icons.home)),
+                  label: 'Home', icon: Icon(Icons.home)),
               BottomNavigationBarItem(
-                  title: Text('Community'), icon: Icon(Icons.people)),
+                  label: 'Community', icon: Icon(Icons.people)),
               BottomNavigationBarItem(
-                  title: Text('FAQ'), icon: Icon(FontAwesomeIcons.solidStar)),
+                  label: 'FAQ', icon: Icon(FontAwesomeIcons.solidStar)),
             ],
             onTap: _onBottomIconTap,
           ),

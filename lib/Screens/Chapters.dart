@@ -48,12 +48,12 @@ class _ChapterScreenState extends State<ChapterScreen>
                   style: Theme.of(context).brightness == Brightness.light
                       ? Theme.of(context)
                       .textTheme
-                      .subhead
+                      .subtitle1
                       .copyWith(fontFamily: 'OpenSans', color: Colors.black,  fontWeight: FontWeight.bold,
                     letterSpacing: 1.0,)
                       : Theme.of(context)
                       .textTheme
-                      .subhead
+                      .subtitle1
                       .copyWith(fontFamily: 'OpenSans', color: Colors.white, letterSpacing: 1.0),
                 ),
               ),
@@ -63,12 +63,12 @@ class _ChapterScreenState extends State<ChapterScreen>
                   style: Theme.of(context).brightness == Brightness.light
                       ? Theme.of(context)
                       .textTheme
-                      .subhead
+                      .subtitle1
                       .copyWith(fontFamily: 'OpenSans', color: Colors.black,
                     letterSpacing: 1.0,)
                       : Theme.of(context)
                       .textTheme
-                      .subhead
+                      .subtitle1
                       .copyWith(fontFamily: 'OpenSans', color: Colors.white,letterSpacing: 1.0),
                 ),
               ),

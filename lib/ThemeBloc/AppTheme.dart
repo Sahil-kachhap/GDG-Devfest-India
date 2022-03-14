@@ -9,8 +9,8 @@ class Themes {
     canvasColor: Colors.grey[50],
     buttonTheme: ButtonThemeData(colorScheme: ColorScheme.light()),
     textTheme: TextTheme(
-      headline: TextStyle(fontFamily: 'OpenSans'),
-      body2: TextStyle(fontFamily: 'Opensans'),
+      headline5: TextStyle(fontFamily: 'OpenSans'),
+      bodyText1: TextStyle(fontFamily: 'Opensans'),
 
     ),
     appBarTheme: AppBarTheme(
@@ -24,8 +24,8 @@ class Themes {
     brightness: Brightness.dark,
       buttonTheme: ButtonThemeData(colorScheme: ColorScheme.dark()),
       textTheme: TextTheme(
-        headline: TextStyle(fontFamily: 'OpenSans'),
-        body2: TextStyle(fontFamily: 'Opensans'),
+        headline5: TextStyle(fontFamily: 'OpenSans'),
+        bodyText1: TextStyle(fontFamily: 'Opensans'),
       )
   );
 }

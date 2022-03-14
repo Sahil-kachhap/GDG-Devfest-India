@@ -44,7 +44,7 @@ class sessionCard extends StatelessWidget {
           textAlign: TextAlign.center,
           text: TextSpan(
             text: "$sessionDuration \n",
-            style: Theme.of(context).textTheme.title.copyWith(
+            style: Theme.of(context).textTheme.headline6.copyWith(
                 fontFamily: 'Opensans',
                 fontWeight: FontWeight.bold,
                 fontSize: 14.0),
@@ -53,7 +53,7 @@ class sessionCard extends StatelessWidget {
                   text: session_time,
                   style: Theme.of(context)
                       .textTheme
-                      .subtitle
+                      .subtitle1
                       .copyWith(fontSize: 12.0, fontFamily: 'Opensans')),
             ],
           ),
@@ -67,12 +67,12 @@ class sessionCard extends StatelessWidget {
             text: "$SessionTopic \n",
             style: Theme.of(context)
                 .textTheme
-                .title
+                .headline6
                 .copyWith(fontSize: 16.0, fontFamily: 'Opensans'),
             children: [
               TextSpan(
                 text: SpeakerName,
-                style: Theme.of(context).textTheme.subtitle.copyWith(
+                style: Theme.of(context).textTheme.subtitle1.copyWith(
                     fontFamily: 'Opensans',
                     fontSize: 14.0,
                     color: Tools.multiColors[Random().nextInt(4)]),
